@@ -3738,7 +3738,125 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "VNLD5090"
+	(symbol "VNL5050N3TR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -4.572 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNL5050"
+			(at 1.27 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IC_Automotive:SOT-223-3_VNL5050"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VNL5050N3TR_0_1"
+			(rectangle
+				(start -5.08 3.175)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "VNL5050N3TR_1_1"
+			(pin power_in line
+				(at -7.62 1.27 0)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VNL5090"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3751,7 +3869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VNLD5090"
+		(property "Value" "VNL5090"
 			(at 12.7 11.43 0)
 			(effects
 				(font
@@ -3805,7 +3923,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "VNLD5090_0_1"
+		(symbol "VNL5090_0_1"
 			(rectangle
 				(start -7.62 -15.24)
 				(end 12.7 10.16)
@@ -3818,7 +3936,7 @@
 				)
 			)
 		)
-		(symbol "VNLD5090_1_1"
+		(symbol "VNL5090_1_1"
 			(pin input line
 				(at -10.16 5.08 0)
 				(length 2.54)
