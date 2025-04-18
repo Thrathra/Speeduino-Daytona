@@ -2498,6 +2498,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ADC1-IN5"
+		(exclude_from_sim no)
+		(at 145.796 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a900639-d448-4ed6-92dc-199e2aca1afb")
+	)
+	(text "ADC1-IN4"
+		(exclude_from_sim no)
+		(at 145.796 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "435e778b-c8ca-4583-b8b1-fa4c545ac4c8")
+	)
+	(text "ADC1-IN3"
+		(exclude_from_sim no)
+		(at 145.796 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49be57c4-c753-4bdf-9fd3-c45318b3cbb5")
+	)
+	(text "ADC1-IN10"
+		(exclude_from_sim no)
+		(at 146.558 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b29effe-f908-4d4f-b89e-a6fe194031a5")
+	)
+	(text "ADC1-IN12"
+		(exclude_from_sim no)
+		(at 146.558 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ef52730-6768-49eb-a716-648c784634ea")
+	)
+	(text "ADC1-IN8"
+		(exclude_from_sim no)
+		(at 145.796 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5469a76c-ba10-4561-9c75-27919a8ff1cc")
+	)
 	(text "SPI3"
 		(exclude_from_sim no)
 		(at 139.954 85.344 0)
@@ -2518,6 +2578,26 @@
 		)
 		(uuid "671c4886-21f0-43f3-9cae-40ced39a5ae3")
 	)
+	(text "ADC1-IN15"
+		(exclude_from_sim no)
+		(at 146.558 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "709cd531-dffb-48ec-bf41-26417b932f0d")
+	)
+	(text "ADC1-IN13"
+		(exclude_from_sim no)
+		(at 146.558 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7357d113-b9b6-4604-b113-27761e697df5")
+	)
 	(text "UART4"
 		(exclude_from_sim no)
 		(at 136.906 145.034 0)
@@ -2527,6 +2607,26 @@
 			)
 		)
 		(uuid "756e6f25-d15c-4e8a-ae19-5aa64b5f4258")
+	)
+	(text "ADC1-IN9"
+		(exclude_from_sim no)
+		(at 145.796 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8405b3a6-55bf-488d-9657-d2a8df8c0e6d")
+	)
+	(text "ADC1-IN0"
+		(exclude_from_sim no)
+		(at 145.796 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fd37077-5695-47e3-95ed-bc12dbf66269")
 	)
 	(text "STM32F107 Microcontroller"
 		(exclude_from_sim no)
@@ -2538,15 +2638,15 @@
 		)
 		(uuid "966c0ed3-af48-49ef-afc5-e56cc5802b13")
 	)
-	(text "ADC1 for all analog pins"
+	(text "ADC1-IN14"
 		(exclude_from_sim no)
-		(at 165.608 124.206 0)
+		(at 146.558 128.524 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "9a36b088-1dfa-4f86-ac4e-28c649c0943d")
+		(uuid "9c2f444e-0e75-4379-8d57-5d18ca722149")
 	)
 	(text "UART5\n"
 		(exclude_from_sim no)
@@ -2558,15 +2658,15 @@
 		)
 		(uuid "a44aa24b-51cb-4f42-a338-fcd9940dddc8")
 	)
-	(text "ADC1 for all analog pins"
+	(text "ADC1-IN2"
 		(exclude_from_sim no)
-		(at 164.592 36.576 0)
+		(at 145.796 37.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "a79682fb-4a41-4d51-b095-5c4daa6a83a5")
+		(uuid "ab1dd78a-8078-4778-a253-e0f0d1472a41")
 	)
 	(text "CAN1"
 		(exclude_from_sim no)
@@ -2578,6 +2678,36 @@
 		)
 		(uuid "ab374a6c-2426-4f8d-8e93-072583278df9")
 	)
+	(text "ADC1-IN1"
+		(exclude_from_sim no)
+		(at 145.796 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b05b5f38-c220-4230-99e2-96a0f1ad0135")
+	)
+	(text "ADC1-IN6"
+		(exclude_from_sim no)
+		(at 145.796 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9fd3c75-a02d-40c8-9ed2-db9cc5c60f22")
+	)
+	(text "ADC1-IN11"
+		(exclude_from_sim no)
+		(at 146.558 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2a11cad-ee82-4f08-bbbd-c0eff974f243")
+	)
 	(text "SPI2"
 		(exclude_from_sim no)
 		(at 138.43 109.728 0)
@@ -2587,6 +2717,16 @@
 			)
 		)
 		(uuid "f06b0e96-a539-4859-83f3-b088fbcf272f")
+	)
+	(text "ADC1-IN7"
+		(exclude_from_sim no)
+		(at 145.796 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0b73029-9965-4728-888d-778fd63b6ec9")
 	)
 	(junction
 		(at 87.63 21.59)
@@ -2633,10 +2773,6 @@
 		(uuid "02965761-f2a0-4e96-a02b-fbc936807aa5")
 	)
 	(no_connect
-		(at 113.03 125.73)
-		(uuid "03f9bfee-7ae8-4e53-9cc2-94036575fc6a")
-	)
-	(no_connect
 		(at 57.15 85.09)
 		(uuid "0782e721-e469-4893-befe-0d33bc02ea13")
 	)
@@ -2647,10 +2783,6 @@
 	(no_connect
 		(at 57.15 115.57)
 		(uuid "1c001e82-c5e0-4737-9985-da79c0d7d25a")
-	)
-	(no_connect
-		(at 57.15 59.69)
-		(uuid "1e16e27a-22e8-4cb5-a3bb-a71d5678473e")
 	)
 	(no_connect
 		(at 113.03 97.79)
@@ -2669,10 +2801,6 @@
 		(uuid "623d8bab-07cc-4017-b511-92b174ce7032")
 	)
 	(no_connect
-		(at 113.03 153.67)
-		(uuid "6444770b-22a5-4e04-a866-4b68f69d6a31")
-	)
-	(no_connect
 		(at 113.03 100.33)
 		(uuid "664c0045-b444-448a-9550-0c7e25e43ce6")
 	)
@@ -2681,28 +2809,8 @@
 		(uuid "6bdc3109-ed59-4be7-9aeb-c7138c054802")
 	)
 	(no_connect
-		(at 57.15 62.23)
-		(uuid "7006e2d8-6db6-4844-9e6a-e1b29af39707")
-	)
-	(no_connect
 		(at 57.15 110.49)
 		(uuid "824b29ee-8de8-4a55-88d1-44d7eb25eb5a")
-	)
-	(no_connect
-		(at 113.03 118.11)
-		(uuid "8b9fd7a1-fcd4-44ab-a9dc-a3e747470774")
-	)
-	(no_connect
-		(at 57.15 72.39)
-		(uuid "8f454de8-39b5-4dce-8ab5-8e5ce6bf1fcb")
-	)
-	(no_connect
-		(at 113.03 151.13)
-		(uuid "97e3be45-be6f-4bba-a5ba-c7deda44a99e")
-	)
-	(no_connect
-		(at 57.15 64.77)
-		(uuid "9d661ee5-6f44-4eb3-beb6-0036cc426262")
 	)
 	(no_connect
 		(at 113.03 92.71)
@@ -2713,20 +2821,16 @@
 		(uuid "9dea473a-080c-4b35-82b2-39a1079befb6")
 	)
 	(no_connect
-		(at 57.15 69.85)
-		(uuid "a50d05a1-e670-41ee-b6ea-2a43d1740170")
-	)
-	(no_connect
 		(at 57.15 77.47)
 		(uuid "b1f4d01f-ab3d-4d5d-acf8-fcc15a6ab454")
 	)
 	(no_connect
-		(at 113.03 95.25)
-		(uuid "b9f571eb-a6b2-471c-819c-629cba05e7f8")
+		(at 57.15 57.15)
+		(uuid "b4387639-4ad4-4c54-a97c-a1fca6c2b23e")
 	)
 	(no_connect
-		(at 57.15 57.15)
-		(uuid "c205990f-9245-4979-abbb-a265145ad69d")
+		(at 113.03 95.25)
+		(uuid "b9f571eb-a6b2-471c-819c-629cba05e7f8")
 	)
 	(no_connect
 		(at 113.03 80.01)
@@ -2737,24 +2841,8 @@
 		(uuid "c8451c39-65fc-44e1-9b27-4daa1b047e12")
 	)
 	(no_connect
-		(at 113.03 156.21)
-		(uuid "ca8d1b6b-edad-4690-ae53-55ada1df4cda")
-	)
-	(no_connect
-		(at 113.03 123.19)
-		(uuid "cfb6914d-d46c-43ae-9488-a53281fdf383")
-	)
-	(no_connect
-		(at 113.03 120.65)
-		(uuid "d92c72f7-eed9-4748-aca8-79c395b6e502")
-	)
-	(no_connect
-		(at 57.15 67.31)
-		(uuid "e3a6fb3c-67a0-4a28-ae7c-a7f08456b9e3")
-	)
-	(no_connect
-		(at 113.03 69.85)
-		(uuid "e80a17d2-630b-4d7f-81fd-1bf671172f67")
+		(at 57.15 59.69)
+		(uuid "d7422490-f61d-429a-9695-229a338d52f8")
 	)
 	(wire
 		(pts
@@ -2975,6 +3063,16 @@
 			(type default)
 		)
 		(uuid "4b7a6787-5399-4038-9737-add9e663561a")
+	)
+	(wire
+		(pts
+			(xy 57.15 64.77) (xy 59.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c15758a-b389-41ac-99b5-c3aca69b8012")
 	)
 	(wire
 		(pts
@@ -3388,16 +3486,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 64.77) (xy 59.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7bb9ceb-cc16-47a8-985f-a9c4bc0c336d")
-	)
-	(wire
-		(pts
 			(xy 57.15 107.95) (xy 59.69 107.95)
 		)
 		(stroke
@@ -3706,6 +3794,50 @@
 		)
 		(uuid "ff3a1c61-5bee-4cfc-a2f0-014c2c357ebc")
 	)
+	(global_label "MCU-EXTRA-GPIO-4-D"
+		(shape input)
+		(at 57.15 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "016382ce-d5a8-4ce5-b09d-0cc64312850b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.838 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-7-D"
+		(shape input)
+		(at 113.03 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "045724fd-9265-4bef-9f73-a271aef2a51e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.342 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-SPI-SD-MISO"
 		(shape input)
 		(at 113.03 110.49 0)
@@ -3728,26 +3860,6 @@
 			)
 		)
 	)
-	(global_label "MCU-BAT-REF-IN-A"
-		(shape input)
-		(at 113.03 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b1c45c1-a528-44d2-9b70-3e62191d189b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU-FAN-TRIG-D"
 		(shape input)
 		(at 113.03 52.07 0)
@@ -3765,6 +3877,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-8-D"
+		(shape input)
+		(at 113.03 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e7e0be7-e507-489c-9b02-296116adcf12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.342 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3873,6 +4007,28 @@
 			)
 		)
 	)
+	(global_label "MCU-EXTRA-GPIO-5-D"
+		(shape input)
+		(at 57.15 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2245cc5b-5734-439f-96a7-86464ce37110")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.838 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-INJ-3-TRIG-D"
 		(shape input)
 		(at 113.03 135.89 0)
@@ -3953,6 +4109,48 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-1-D"
+		(shape input)
+		(at 57.15 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32291249-14b4-42ce-aac1-a62c57cdab70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.838 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-12-A"
+		(shape input)
+		(at 113.03 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "336a122a-c5a9-408e-ac7d-9aa827fd1789")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4290,26 +4488,6 @@
 			)
 		)
 	)
-	(global_label "MCU-CLUTCH-IN-A?"
-		(shape input)
-		(at 113.03 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7696b5a1-8bcb-45f1-8382-efd2254a3628")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU-IGN-3-TRIG-D"
 		(shape input)
 		(at 57.15 135.89 180)
@@ -4322,6 +4500,26 @@
 		(uuid "79dbb817-cbcf-490a-9689-8f423f66e118")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-11-A"
+		(shape input)
+		(at 113.03 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a8ee57e-e23d-472f-b283-ca177344e6b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,6 +4550,46 @@
 			)
 		)
 	)
+	(global_label "MCU-EXTRA-GPIO-10-A"
+		(shape input)
+		(at 113.03 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80c8174b-5aa1-4528-a10c-619ea6d002a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-CLUTCH-IN-A?"
+		(shape input)
+		(at 113.03 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8261f402-d110-4ddd-836c-6ed058f881fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-UART-EXTRA-TX"
 		(shape input)
 		(at 113.03 148.59 0)
@@ -4374,6 +4612,28 @@
 			)
 		)
 	)
+	(global_label "MCU-EXTRA-GPIO-6-D"
+		(shape input)
+		(at 113.03 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8449facc-7ed5-48d7-87ca-9301c7db7ecb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.342 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-FLASH-CS-OUT-D"
 		(shape input)
 		(at 113.03 90.17 0)
@@ -4387,6 +4647,49 @@
 		(uuid "846ddd03-2e97-41ac-abd3-e1e220653da7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.8259 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-3-D"
+		(shape input)
+		(at 57.15 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d685797-4f95-4397-8c39-b1e06a351855")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.838 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-LC-TRIG-D"
+		(shape input)
+		(at 113.03 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90574b3f-a90f-41a0-aa6c-23334f1aeef0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,6 +4737,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-2-D"
+		(shape input)
+		(at 57.15 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1c5d102-6ddf-4203-9bac-b80eb4975004")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.838 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4490,6 +4815,26 @@
 		(uuid "c1783180-9759-4a95-9e40-199e0fdeabb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-9-A"
+		(shape input)
+		(at 113.03 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c319f9a6-28fc-463d-b6e4-2aa91766f034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,6 +5109,26 @@
 		(uuid "fb51b4fa-0ef1-4f64-ae54-5f79a2ac3dd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-BAT-REF-IN-A"
+		(shape input)
+		(at 113.03 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe5970c0-2798-45d7-b6d9-9be0c4f8e9d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
