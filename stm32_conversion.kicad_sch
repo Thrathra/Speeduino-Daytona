@@ -4899,7 +4899,7 @@
 			)
 		)
 	)
-	(global_label "RAW-BAT-REF"
+	(global_label "RAW-BAT"
 		(shape input)
 		(at 33.02 138.43 180)
 		(effects
@@ -4963,26 +4963,6 @@
 			)
 		)
 	)
-	(global_label "MCU-IGN-3-TRIG-D"
-		(shape input)
-		(at 167.64 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28ffc553-a0a1-4e31-9120-aaccda6147a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RAW-EXTRA-GPIO-12-A"
 		(shape input)
 		(at 109.22 179.07 180)
@@ -5035,26 +5015,6 @@
 		(uuid "36b37635-2bb4-4d81-8857-cb42a58fd093")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.02 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU-IGN-4-TRIG-D"
-		(shape input)
-		(at 167.64 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36ed88c9-cc36-4ee6-a7bd-9675d311a3d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,6 +5123,26 @@
 			)
 		)
 	)
+	(global_label "MCU-IGN-4-TRIG-D"
+		(shape input)
+		(at 167.64 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50273fe6-a694-44e8-bfc1-c9649736ab31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-SPI-FLASH-MOSI"
 		(shape input)
 		(at 109.22 99.06 180)
@@ -5259,6 +5239,26 @@
 		(uuid "57e87718-cfca-48ec-ad2f-4036be34fadc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-IGN-1-TRIG-D"
+		(shape input)
+		(at 167.64 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a0f8e51-9316-422f-9a06-6920623754d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,18 +5431,18 @@
 			)
 		)
 	)
-	(global_label "MCU-IGN-1-TRIG-D"
+	(global_label "MCU-IGN-3-TRIG-D"
 		(shape input)
-		(at 167.64 59.69 180)
+		(at 167.64 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "802e2850-1abd-4a01-b6b3-02695da0c20e")
+		(uuid "7f5b4b8a-7ef7-4700-9915-09523a6de224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 59.69 0)
+			(at 167.64 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,6 +5843,26 @@
 			)
 		)
 	)
+	(global_label "MCU-IGN-2-TRIG-D"
+		(shape input)
+		(at 167.64 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c96fef3c-41f5-400b-a073-0e71165af2ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FUELPUMP-TRIG"
 		(shape input)
 		(at 193.04 46.99 0)
@@ -6062,26 +6082,6 @@
 		(uuid "e7fa6ba8-25a3-46c3-ac04-bd3505aee312")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU-IGN-2-TRIG-D"
-		(shape input)
-		(at 167.64 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eaff108a-2b16-4bb6-bae5-e689a02c38af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

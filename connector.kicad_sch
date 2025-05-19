@@ -3921,27 +3921,7 @@
 			)
 		)
 	)
-	(global_label "IAT-IN"
-		(shape input)
-		(at 142.24 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a950c5a-5e6b-4fb5-b4f2-2ccdaac47d51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXTRA-GPIO-6-D"
+	(global_label "MCU-EXTRA-GPIO-6-D"
 		(shape input)
 		(at 207.01 118.11 180)
 		(fields_autoplaced yes)
@@ -3953,7 +3933,7 @@
 		)
 		(uuid "1bb25fdc-fe33-4788-9355-cbdef7eebd62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3223 118.11 0)
+			(at 181.698 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4047,7 @@
 			)
 		)
 	)
-	(global_label "RAW-FLEX-IN"
+	(global_label "TPS-IN"
 		(shape input)
 		(at 142.24 111.76 180)
 		(effects
@@ -4147,6 +4127,26 @@
 			)
 		)
 	)
+	(global_label "CLUTCH-IN"
+		(shape input)
+		(at 142.24 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47bc408f-7494-4ede-b192-8ae5f171cf8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HC-2-OUT"
 		(shape input)
 		(at 27.94 124.46 180)
@@ -4168,7 +4168,7 @@
 			)
 		)
 	)
-	(global_label "EXTRA-GPIO-2-D"
+	(global_label "MCU-EXTRA-GPIO-2-D"
 		(shape input)
 		(at 207.01 107.95 180)
 		(fields_autoplaced yes)
@@ -4180,7 +4180,7 @@
 		)
 		(uuid "4e8fb9b8-278c-49fd-85dc-5067e71af539")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3223 107.95 0)
+			(at 181.698 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4190,27 @@
 			)
 		)
 	)
-	(global_label "EXTRA-GPIO-7-D"
+	(global_label "O2-IN"
+		(shape input)
+		(at 142.24 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50183c1d-a6e1-44bd-8afa-1b09f855c013")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-7-D"
 		(shape input)
 		(at 207.01 120.65 180)
 		(fields_autoplaced yes)
@@ -4202,7 +4222,7 @@
 		)
 		(uuid "52023cd0-6173-415c-a5f5-aec1734f948f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3223 120.65 0)
+			(at 181.698 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4232,7 @@
 			)
 		)
 	)
-	(global_label "EXTRA-GPIO-8-D"
+	(global_label "MCU-EXTRA-GPIO-8-D"
 		(shape input)
 		(at 207.01 123.19 180)
 		(fields_autoplaced yes)
@@ -4224,7 +4244,7 @@
 		)
 		(uuid "535bf508-8f1f-4ec5-a267-10f8ee9c766e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3223 123.19 0)
+			(at 181.698 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4254,7 @@
 			)
 		)
 	)
-	(global_label "EXTRA-GPIO-5-D"
+	(global_label "MCU-EXTRA-GPIO-5-D"
 		(shape input)
 		(at 207.01 115.57 180)
 		(fields_autoplaced yes)
@@ -4246,7 +4266,7 @@
 		)
 		(uuid "666df337-8cb7-4f2b-b548-0c5d37cb4ad1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3223 115.57 0)
+			(at 181.698 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4296,7 @@
 			)
 		)
 	)
-	(global_label "MCU-UART-RX-BT"
+	(global_label "MCU-UART-BT-RX"
 		(shape input)
 		(at 140.97 182.88 0)
 		(fields_autoplaced yes)
@@ -4420,7 +4440,27 @@
 			)
 		)
 	)
-	(global_label "EXTRA-GPIO-3-D"
+	(global_label "RAW-FLEX-IN"
+		(shape input)
+		(at 142.24 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82a2b9a2-b836-49c4-bd10-1170cbc3a821")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-3-D"
 		(shape input)
 		(at 207.01 110.49 180)
 		(fields_autoplaced yes)
@@ -4432,7 +4472,7 @@
 		)
 		(uuid "88e41400-4d9a-47c2-9b3e-fb16ca9af082")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3223 110.49 0)
+			(at 181.698 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4565,7 @@
 			)
 		)
 	)
-	(global_label "CLUTCH-IN"
+	(global_label "COOLANT-IN"
 		(shape input)
 		(at 142.24 116.84 180)
 		(effects
@@ -4608,7 +4648,7 @@
 			)
 		)
 	)
-	(global_label "MCU-UART-TX-BT"
+	(global_label "MCU-UART-BT-TX"
 		(shape input)
 		(at 140.97 180.34 0)
 		(fields_autoplaced yes)
@@ -4731,27 +4771,7 @@
 			)
 		)
 	)
-	(global_label "COOLANT-IN"
-		(shape input)
-		(at 142.24 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9b76eaf-210f-4f94-a8f8-c3c725678d14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXTRA-GPIO-4-D"
+	(global_label "MCU-EXTRA-GPIO-4-D"
 		(shape input)
 		(at 207.01 113.03 180)
 		(fields_autoplaced yes)
@@ -4763,7 +4783,7 @@
 		)
 		(uuid "cd8c162a-409b-4893-a490-27e3c9560c50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3223 113.03 0)
+			(at 181.698 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4793,27 @@
 			)
 		)
 	)
-	(global_label "EXTRA-GPIO-1-D"
+	(global_label "IAT-IN"
+		(shape input)
+		(at 142.24 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce223e83-0262-4a12-99fb-9a349ca78dd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-1-D"
 		(shape input)
 		(at 207.01 105.41 180)
 		(fields_autoplaced yes)
@@ -4785,32 +4825,12 @@
 		)
 		(uuid "d533df2d-0c2f-45f0-bca5-79cb22049269")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3223 105.41 0)
+			(at 181.698 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "O2-IN"
-		(shape input)
-		(at 142.24 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbd87317-b11b-4d18-b2ca-b3b8f9b1088c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4887,26 +4907,6 @@
 		(uuid "f11ab883-c3e3-4a34-8827-114ae085d309")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TPS-IN"
-		(shape input)
-		(at 142.24 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f699b63e-4e77-4c35-a532-fc9e53f6bfed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

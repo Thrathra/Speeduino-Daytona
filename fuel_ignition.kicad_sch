@@ -836,27 +836,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IC_Automotive:VNL5050N3TR"
+		(symbol "IC_Automotive:VNL5090N3-E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -4.572 4.064 0)
+			(property "Reference" "IC"
+				(at 23.114 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "VNL5050"
-				(at 1.27 4.064 0)
+			(property "Value" "VNL5090N3-E"
+				(at 23.114 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "IC_Automotive:SOT-223-3_VNL5050"
+			(property "Footprint" "SOT230P700X180-4N"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/en/automotive-analog-and-power/vnl5090n3-e.html"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DSE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -865,28 +887,80 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "1.8"
+				(at 31.75 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 31.75 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "VNL5050N3TR_0_1"
+			(property "Manufacturer_Part_Number" "VNL5090N3-E"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 31.75 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 31.75 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "VNL5090N3-E_1_1"
 				(rectangle
-					(start -5.08 3.175)
-					(end 5.08 -3.81)
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -895,30 +969,10 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "VNL5050N3TR_1_1"
-				(pin power_in line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "IN"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "INPUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -933,10 +987,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "S"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SOURCE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -944,6 +998,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "DRAIN_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "DRAIN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1725,16 +1815,6 @@
 		)
 		(uuid "ac5c6e12-c860-49e8-b56a-d48fa1e7d682")
 	)
-	(text "Divider or pulldown?"
-		(exclude_from_sim no)
-		(at 246.888 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b7d6aa92-b256-4450-9ffd-5facb62f8ac5")
-	)
 	(text "Injector Driver 3"
 		(exclude_from_sim no)
 		(at 199.644 33.02 0)
@@ -1745,36 +1825,6 @@
 			(justify left bottom)
 		)
 		(uuid "b9274c84-d8e8-48bc-92a3-5a2afc00ad23")
-	)
-	(text "Divider or pulldown?"
-		(exclude_from_sim no)
-		(at 121.412 98.298 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d1437c0f-a41e-4abc-9ddb-a32195d39f50")
-	)
-	(text "Divider or pulldown?"
-		(exclude_from_sim no)
-		(at 120.142 61.214 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f01d62b6-aa48-4c8b-b241-15bc111dd092")
-	)
-	(text "Divider or pulldown?"
-		(exclude_from_sim no)
-		(at 240.538 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f26d3aa0-d3f5-4be2-8629-f939f6353a8f")
 	)
 	(text "Ignition Driver 1"
 		(exclude_from_sim no)
@@ -1788,10 +1838,22 @@
 		(uuid "f9158a90-d921-4a8d-86dd-41a5bac166d5")
 	)
 	(junction
+		(at 73.66 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02f817c5-15d6-4d28-83b2-0160e7bc9c21")
+	)
+	(junction
 		(at 64.77 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08489283-70a8-43b8-8db8-7801b9a85604")
+	)
+	(junction
+		(at 73.66 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a4a9172-3ac0-4177-a728-9663b7e87072")
 	)
 	(junction
 		(at 233.68 124.46)
@@ -1818,10 +1880,40 @@
 		(uuid "1a2cb86a-a99d-4382-a807-5e1cdb42f247")
 	)
 	(junction
+		(at 228.6 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "257530b9-a6e6-45cd-924b-198703829181")
+	)
+	(junction
+		(at 228.6 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3733a01d-d185-445c-a61d-02f7f8930bd3")
+	)
+	(junction
 		(at 115.57 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3971a7c1-7096-412e-8268-2d2390d07460")
+	)
+	(junction
+		(at 106.68 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39a1cfc2-9f5c-4e04-b7b1-6b9a4806aa55")
+	)
+	(junction
+		(at 60.96 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f463b48-f5ca-4d4c-86c2-da8c52298ca9")
+	)
+	(junction
+		(at 182.88 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ff14b0b-f655-40a3-a0c1-b6e48a9e218b")
 	)
 	(junction
 		(at 242.57 135.89)
@@ -1836,22 +1928,16 @@
 		(uuid "57649265-799b-44b9-81c1-f8f5d5be75c5")
 	)
 	(junction
-		(at 234.95 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "581c3019-a8f5-485a-97e2-e5615aa469ac")
-	)
-	(junction
-		(at 215.9 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58bc6609-b094-461a-95cb-5c4cd7476b2b")
-	)
-	(junction
 		(at 64.77 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7027d343-8408-4775-b01b-1c8c4b090cbf")
+	)
+	(junction
+		(at 106.68 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77f582de-852d-4b25-ac38-f5e96400ae52")
 	)
 	(junction
 		(at 254 128.27)
@@ -1866,10 +1952,22 @@
 		(uuid "78bd79fa-76ea-4297-af40-44601b775d5f")
 	)
 	(junction
+		(at 106.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0b662c-6039-4d82-bf83-fdc4f128ed27")
+	)
+	(junction
 		(at 127 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bceaf05-3e34-42ea-bd85-7ddb99bed96a")
+	)
+	(junction
+		(at 60.96 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "886d99f4-7667-4271-8c48-6d407da55296")
 	)
 	(junction
 		(at 127 128.27)
@@ -1878,28 +1976,34 @@
 		(uuid "8d172558-2678-4f34-ba9b-0801b5d96127")
 	)
 	(junction
-		(at 111.76 53.34)
+		(at 228.6 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e5a52cf-7fca-4fdf-8469-80a89e9da319")
+		(uuid "989df52a-5eb6-4323-926c-26ac230a1614")
 	)
 	(junction
-		(at 238.76 91.44)
+		(at 195.58 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1e6cd7d-68ac-4ef8-836f-6b13040ed058")
+		(uuid "a0235ac5-9340-4363-89a9-609c16f7013d")
 	)
 	(junction
-		(at 90.17 80.01)
+		(at 228.6 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b067078f-2469-4e55-97e1-de06bc20361e")
+		(uuid "ba579271-f340-41ec-ae1f-535f02d24431")
 	)
 	(junction
-		(at 113.03 90.17)
+		(at 106.68 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6231c52-40a7-4aad-9fcc-986d9211b731")
+		(uuid "c26d38eb-0ea2-4e95-8793-76de449641d5")
+	)
+	(junction
+		(at 182.88 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ff8e3e-8764-4273-a3cd-4c3ced7fcf49")
 	)
 	(junction
 		(at 64.77 148.59)
@@ -1908,22 +2012,16 @@
 		(uuid "ea48ad16-e961-42f0-9953-b44c040b3f03")
 	)
 	(junction
-		(at 88.9 43.18)
+		(at 195.58 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eac49041-24f4-4590-81be-b6b31350a2f2")
+		(uuid "ee8d1eb9-f45a-4d99-89ab-a3c99d50e721")
 	)
 	(junction
 		(at 191.77 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efdfeb1d-20cf-4ab7-8bce-68d244c60c4f")
-	)
-	(junction
-		(at 212.09 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8c07323-ae86-4866-9ff1-23deee2c6342")
 	)
 	(junction
 		(at 191.77 135.89)
@@ -1953,26 +2051,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 80.01) (xy 59.69 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03317733-3ede-48a1-a7f2-524a41fc8a96")
-	)
-	(wire
-		(pts
-			(xy 111.76 48.26) (xy 111.76 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03bbbfed-922b-4a21-a3cc-72c8db0dc0e1")
-	)
-	(wire
-		(pts
 			(xy 77.47 138.43) (xy 80.01 138.43)
 		)
 		(stroke
@@ -1993,13 +2071,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 44.45) (xy 212.09 44.45)
+			(xy 73.66 86.36) (xy 73.66 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0afca72f-430b-4cb8-a0a3-402c1153e1c2")
+		(uuid "0aeb1311-2ee0-4617-9a0d-371ead0d8098")
 	)
 	(wire
 		(pts
@@ -2023,6 +2101,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 85.09) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edb60a4-6088-40dc-8c3c-75a031659149")
+	)
+	(wire
+		(pts
 			(xy 116.84 124.46) (xy 119.38 124.46)
 		)
 		(stroke
@@ -2033,17 +2121,27 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 43.18) (xy 58.42 43.18)
+			(xy 228.6 46.99) (xy 228.6 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "107b3e92-558d-4af0-9132-0547cf73d16f")
+		(uuid "10cac903-0f89-4eb6-b463-c232ba5b8fa0")
 	)
 	(wire
 		(pts
-			(xy 114.3 53.34) (xy 111.76 53.34)
+			(xy 226.06 87.63) (xy 228.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e9a1ca-b0f2-4429-b82d-503fd7c09b9c")
+	)
+	(wire
+		(pts
+			(xy 58.42 46.99) (xy 60.96 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2060,6 +2158,36 @@
 			(type default)
 		)
 		(uuid "156b2a02-4259-4564-b921-5e0aa81936bf")
+	)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17163dfc-f94d-4989-a99a-2dfe84c9930a")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 182.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1731ecbf-b516-4972-9701-c4b0250cf4c0")
+	)
+	(wire
+		(pts
+			(xy 251.46 46.99) (xy 248.92 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d4228e-11b9-4174-8277-f93fd396d520")
 	)
 	(wire
 		(pts
@@ -2083,53 +2211,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 90.17) (xy 110.49 90.17)
+			(xy 73.66 49.53) (xy 73.66 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c0844ce-c973-44fe-a32f-b1e56daef334")
+		(uuid "1c56690c-977d-4d8c-ab5a-5fb539dceeba")
 	)
 	(wire
 		(pts
-			(xy 233.68 81.28) (xy 236.22 81.28)
+			(xy 129.54 44.45) (xy 129.54 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c1c8140-6b98-479c-aa1a-04e3c0f381d0")
-	)
-	(wire
-		(pts
-			(xy 76.2 43.18) (xy 78.74 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9407eb-b7e3-4e8e-92cf-4ec91abdbbcb")
-	)
-	(wire
-		(pts
-			(xy 92.71 80.01) (xy 90.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22bb0cf9-fe5c-42de-9e73-deb0d5409d85")
-	)
-	(wire
-		(pts
-			(xy 237.49 54.61) (xy 234.95 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d0ca69-6769-4369-9fc2-e7b20a19642e")
+		(uuid "212d6b58-85ed-4fd0-a234-3972bbfe4966")
 	)
 	(wire
 		(pts
@@ -2153,23 +2251,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 49.53) (xy 212.09 49.53)
+			(xy 119.38 46.99) (xy 116.84 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2421db21-06ff-4f2e-b1c4-876537636467")
-	)
-	(wire
-		(pts
-			(xy 86.36 48.26) (xy 88.9 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "275b7321-f3da-4f94-a1de-1950da317992")
+		(uuid "26551d4d-b61e-46cc-8986-20821126bf33")
 	)
 	(wire
 		(pts
@@ -2213,46 +2301,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 44.45) (xy 181.61 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec9028d-c1f2-47d8-a327-9b25f4d3bce8")
-	)
-	(wire
-		(pts
-			(xy 248.92 91.44) (xy 251.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f6ff21b-4242-4654-9556-234fb5d5c240")
-	)
-	(wire
-		(pts
-			(xy 90.17 80.01) (xy 90.17 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "313079f8-6916-4e4e-8f32-1ddbf2ce7888")
-	)
-	(wire
-		(pts
-			(xy 234.95 49.53) (xy 234.95 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3143e7af-59b8-4af3-8da6-ea273008e86d")
-	)
-	(wire
-		(pts
 			(xy 64.77 146.05) (xy 64.77 148.59)
 		)
 		(stroke
@@ -2263,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 99.06 53.34)
+			(xy 71.12 46.99) (xy 76.2 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2283,33 +2331,43 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 53.34) (xy 124.46 53.34)
+			(xy 241.3 46.99) (xy 238.76 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3505f187-9c76-435e-87c9-0d53f41e1ba3")
+		(uuid "3d92e8ad-b5c5-4ae9-bacc-c83ff4165328")
 	)
 	(wire
 		(pts
-			(xy 241.3 86.36) (xy 238.76 86.36)
+			(xy 193.04 85.09) (xy 198.12 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a6e7cc5-5e9d-47a3-afa5-04ea51b78b87")
+		(uuid "3df3fbc8-839f-4cf1-899b-8471d47411a5")
 	)
 	(wire
 		(pts
-			(xy 234.95 54.61) (xy 232.41 54.61)
+			(xy 251.46 34.29) (xy 251.46 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "418c2ad8-2886-4c4f-8580-92f2950c65d5")
+		(uuid "3df5ee3a-686b-461b-914b-57d8366c4466")
+	)
+	(wire
+		(pts
+			(xy 228.6 85.09) (xy 226.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40afc922-9480-448a-a941-2b7f614b89de")
 	)
 	(wire
 		(pts
@@ -2320,6 +2378,16 @@
 			(type default)
 		)
 		(uuid "42a7b2d6-4798-4d5d-a9d1-1e0b873e7681")
+	)
+	(wire
+		(pts
+			(xy 109.22 46.99) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44442e96-2fa5-4eab-8913-962460c2b2c7")
 	)
 	(wire
 		(pts
@@ -2353,33 +2421,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 111.76 48.26)
+			(xy 106.68 46.99) (xy 106.68 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4811a86a-87da-4294-99b3-9aab62a6f328")
-	)
-	(wire
-		(pts
-			(xy 99.06 53.34) (xy 99.06 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49897371-404a-4d32-a2eb-c79f153cce19")
-	)
-	(wire
-		(pts
-			(xy 193.04 81.28) (xy 195.58 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a1d3a2e-1647-4477-94bd-b564523e9fb0")
+		(uuid "4a61d0a8-b48a-4e6a-8500-7ceede356fb2")
 	)
 	(wire
 		(pts
@@ -2390,6 +2438,16 @@
 			(type default)
 		)
 		(uuid "4e7bea32-3f17-4265-960e-c55963ab71d6")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 198.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd5b1b7-2139-4fd2-a3c2-8cfc09792690")
 	)
 	(wire
 		(pts
@@ -2413,33 +2471,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 44.45) (xy 212.09 49.53)
+			(xy 228.6 46.99) (xy 226.06 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53865532-3778-474b-a896-3b3453b1a77e")
-	)
-	(wire
-		(pts
-			(xy 238.76 91.44) (xy 236.22 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53d88afb-ceb6-4af5-9678-d37e3f9efbbb")
-	)
-	(wire
-		(pts
-			(xy 209.55 44.45) (xy 212.09 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "547f0efb-4a47-4b58-88d5-35d94bef788b")
+		(uuid "539ed624-94bb-4589-81ae-db121dcce612")
 	)
 	(wire
 		(pts
@@ -2453,13 +2491,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 54.61) (xy 222.25 52.07)
+			(xy 104.14 86.36) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "557d4de4-c2f6-4f8a-9491-ed6f66f8a046")
+		(uuid "56211f89-c8b3-41a3-9882-63b545d0c9d7")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f255ea-7cf1-4246-a19f-109a7c4a0d1b")
 	)
 	(wire
 		(pts
@@ -2483,23 +2531,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 90.17) (xy 125.73 90.17)
+			(xy 182.88 85.09) (xy 182.88 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58b413da-66e0-43f8-8e45-94962925c20a")
+		(uuid "590fdad2-9d07-436c-9ad1-939a25e7a887")
 	)
 	(wire
 		(pts
-			(xy 241.3 91.44) (xy 238.76 91.44)
+			(xy 129.54 81.28) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5df57d19-9218-4a7f-bb30-3caeaad84da6")
+		(uuid "5a985500-9707-4e3c-a2c5-bc5da8684990")
 	)
 	(wire
 		(pts
@@ -2513,23 +2561,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 85.09) (xy 90.17 85.09)
+			(xy 71.12 83.82) (xy 76.2 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64273d04-87ad-4e39-8f19-55a76bd4da70")
-	)
-	(wire
-		(pts
-			(xy 215.9 81.28) (xy 215.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65394805-8cb8-404f-aa12-f2c0aab952d1")
+		(uuid "5e43a40c-836a-44ed-b249-ee74be1f862d")
 	)
 	(wire
 		(pts
@@ -2553,33 +2591,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 185.42 81.28)
+			(xy 63.5 49.53) (xy 60.96 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b0ee98e-0e77-4d09-ae85-ed76c6bd6ef1")
+		(uuid "68ec8222-0e2c-4ee1-96ba-800d4fe3b3e2")
 	)
 	(wire
 		(pts
-			(xy 238.76 86.36) (xy 238.76 91.44)
+			(xy 60.96 46.99) (xy 60.96 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b4f4571-abf6-4c1a-8568-f26563878b62")
-	)
-	(wire
-		(pts
-			(xy 100.33 90.17) (xy 100.33 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bbe08f5-f52f-4d39-8340-2cfde3c75ccf")
+		(uuid "6e4049c1-535d-4310-8cdd-95da77073eb8")
 	)
 	(wire
 		(pts
@@ -2603,6 +2631,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 49.53) (xy 195.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719c9c87-9c0b-4df4-a6a4-0243d6cb9538")
+	)
+	(wire
+		(pts
 			(xy 109.22 124.46) (xy 106.68 124.46)
 		)
 		(stroke
@@ -2610,6 +2648,16 @@
 			(type default)
 		)
 		(uuid "72beb6da-a219-4486-96f2-15604f591734")
+	)
+	(wire
+		(pts
+			(xy 251.46 72.39) (xy 251.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735aea04-0a0a-4d57-b395-291253f74304")
 	)
 	(wire
 		(pts
@@ -2623,23 +2671,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 91.44 43.18)
+			(xy 58.42 83.82) (xy 60.96 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c4dcd6c-fd2c-4df1-9d05-ab0356a26afa")
-	)
-	(wire
-		(pts
-			(xy 213.36 81.28) (xy 215.9 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7df342c8-3aa4-4976-9c2c-d6ad5819ed2d")
+		(uuid "7ad9be15-9548-4ae8-b555-305accde59f9")
 	)
 	(wire
 		(pts
@@ -2683,13 +2721,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 88.9 43.18)
+			(xy 106.68 83.82) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85657bf5-3aae-433d-8929-1461523b3229")
+		(uuid "864f6678-bc69-4e46-8ac9-dc7b3fafcbe9")
 	)
 	(wire
 		(pts
@@ -2700,6 +2738,26 @@
 			(type default)
 		)
 		(uuid "877c1fcb-3a6a-44e1-a8bc-a28e3f135a17")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af42a38-0c9d-4a97-9be1-75bc33d0ecb1")
+	)
+	(wire
+		(pts
+			(xy 60.96 83.82) (xy 60.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8f7ef3-cfa3-40f7-9017-ef67432bbf3a")
 	)
 	(wire
 		(pts
@@ -2733,6 +2791,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 49.53) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5755d5-b90d-4281-ba59-17146dde0064")
+	)
+	(wire
+		(pts
+			(xy 106.68 83.82) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90183017-0ac4-4f1c-bc2b-91a17e80d031")
+	)
+	(wire
+		(pts
 			(xy 254 116.84) (xy 256.54 116.84)
 		)
 		(stroke
@@ -2750,6 +2828,16 @@
 			(type default)
 		)
 		(uuid "90b19aa4-2572-4f43-8b62-0b70ea2e5be6")
+	)
+	(wire
+		(pts
+			(xy 106.68 46.99) (xy 104.14 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e9f1e2-18ce-4735-ad2f-c109b93d8492")
 	)
 	(wire
 		(pts
@@ -2773,6 +2861,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 87.63) (xy 182.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944a872d-4aed-4208-a411-cfebb795e051")
+	)
+	(wire
+		(pts
 			(xy 191.77 148.59) (xy 194.31 148.59)
 		)
 		(stroke
@@ -2793,6 +2891,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 49.53) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996bd951-a002-4d2b-b48e-5f97c87df320")
+	)
+	(wire
+		(pts
 			(xy 236.22 124.46) (xy 233.68 124.46)
 		)
 		(stroke
@@ -2800,6 +2908,16 @@
 			(type default)
 		)
 		(uuid "9c65312a-1f0e-45b6-8270-08ab704a4a2a")
+	)
+	(wire
+		(pts
+			(xy 129.54 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2d3ec9-8441-46cb-b0f7-3e344063a05e")
 	)
 	(wire
 		(pts
@@ -2813,23 +2931,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 90.17)
+			(xy 71.12 49.53) (xy 73.66 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ec5aa4d-6e59-439b-a920-7437f00133a2")
+		(uuid "9d5b7c56-44d3-424a-9309-67603ccd8673")
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 88.9 48.26)
+			(xy 60.96 46.99) (xy 63.5 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2b43c9c-0dfd-4d79-bed4-2c1afc6adca4")
+		(uuid "a151a45c-4c59-4ddd-b85e-8c57f5147476")
 	)
 	(wire
 		(pts
@@ -2843,13 +2961,13 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 49.53) (xy 234.95 49.53)
+			(xy 195.58 49.53) (xy 198.12 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a46d2f6c-6245-43d2-8093-5657c1589652")
+		(uuid "a42ce989-5ec3-4685-9790-8588eaaeff03")
 	)
 	(wire
 		(pts
@@ -2873,6 +2991,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 85.09) (xy 185.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa510a2-da5f-4fad-aded-99b256c048ae")
+	)
+	(wire
+		(pts
+			(xy 193.04 87.63) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab66e3e1-07a8-4db5-a7bd-3bf93283690d")
+	)
+	(wire
+		(pts
 			(xy 256.54 135.89) (xy 254 135.89)
 		)
 		(stroke
@@ -2893,13 +3031,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 81.28) (xy 205.74 81.28)
+			(xy 182.88 46.99) (xy 185.42 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adf1e5cb-85ee-4253-9961-e43d13e602ba")
+		(uuid "adba638d-7a26-43f8-8233-ed0d081a4ff4")
 	)
 	(wire
 		(pts
@@ -2910,6 +3048,16 @@
 			(type default)
 		)
 		(uuid "afec1ce2-1cb8-47c6-a320-d8574e9bfea8")
+	)
+	(wire
+		(pts
+			(xy 231.14 87.63) (xy 228.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b036b05c-f516-4b2e-9865-471b4da357cd")
 	)
 	(wire
 		(pts
@@ -2933,26 +3081,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 44.45) (xy 191.77 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b218cf7c-1a5f-4f70-a835-845ab1b75788")
-	)
-	(wire
-		(pts
-			(xy 87.63 80.01) (xy 90.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b45513bc-13e2-4cc9-90c1-b6e510c116c3")
-	)
-	(wire
-		(pts
 			(xy 127 116.84) (xy 129.54 116.84)
 		)
 		(stroke
@@ -2973,13 +3101,33 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 91.44) (xy 226.06 91.44)
+			(xy 119.38 83.82) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b95e37fa-0d90-4fb7-a264-a83a3ac07637")
+		(uuid "b8d88ac4-5dd0-44b3-bb5e-5ac82c385c7f")
+	)
+	(wire
+		(pts
+			(xy 231.14 85.09) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91e19a6-b03a-447a-a55a-2cc3fd2af37b")
+	)
+	(wire
+		(pts
+			(xy 104.14 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c82d6b-74c7-4257-8f8e-a47aa515b8e0")
 	)
 	(wire
 		(pts
@@ -2993,26 +3141,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 44.45) (xy 232.41 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb7c6a2a-49a1-4924-96a5-1412478b1bab")
-	)
-	(wire
-		(pts
-			(xy 77.47 80.01) (xy 80.01 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be7d4997-6eae-46f4-b76d-1204c8803638")
-	)
-	(wire
-		(pts
 			(xy 77.47 148.59) (xy 77.47 138.43)
 		)
 		(stroke
@@ -3023,33 +3151,33 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 90.17) (xy 100.33 90.17)
+			(xy 73.66 49.53) (xy 76.2 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf900773-0f03-4816-ba23-f15f29f3bc2e")
+		(uuid "c1706001-53b3-4cc2-a515-c92a1ef96182")
 	)
 	(wire
 		(pts
-			(xy 199.39 44.45) (xy 201.93 44.45)
+			(xy 109.22 86.36) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7df6cdb-bd90-46d4-945f-f5982544e240")
+		(uuid "c3aa55dd-c42d-4a61-8f8a-f3c34a7fb442")
 	)
 	(wire
 		(pts
-			(xy 107.95 80.01) (xy 110.49 80.01)
+			(xy 195.58 87.63) (xy 195.58 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7eff917-0815-4736-a455-737c30b47f14")
+		(uuid "cddfa695-e40d-4ed6-90ab-8e7772eed5eb")
 	)
 	(wire
 		(pts
@@ -3060,16 +3188,6 @@
 			(type default)
 		)
 		(uuid "d16a4f89-c4ae-4b22-a8c3-b5f6c67c4a47")
-	)
-	(wire
-		(pts
-			(xy 115.57 90.17) (xy 113.03 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c015e7-bc03-413c-9a52-c488a190d077")
 	)
 	(wire
 		(pts
@@ -3093,6 +3211,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 34.29) (xy 129.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d602f95d-3c01-4220-a248-eead79f59996")
+	)
+	(wire
+		(pts
 			(xy 127 135.89) (xy 115.57 135.89)
 		)
 		(stroke
@@ -3103,43 +3231,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 81.28) (xy 215.9 81.28)
+			(xy 63.5 86.36) (xy 60.96 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7e1bf5a-dbfe-4023-abca-23ddf13634b4")
-	)
-	(wire
-		(pts
-			(xy 111.76 53.34) (xy 109.22 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db191550-d799-4fda-91bd-2f5598335c13")
-	)
-	(wire
-		(pts
-			(xy 224.79 54.61) (xy 222.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db891f5e-e4c9-4640-bc7c-740d1c9efa2e")
-	)
-	(wire
-		(pts
-			(xy 106.68 43.18) (xy 109.22 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd5b7171-f6c9-4cb2-b8c1-7072be4c574c")
+		(uuid "d66560c5-99bc-430a-9733-ddf84135171c")
 	)
 	(wire
 		(pts
@@ -3153,53 +3251,63 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 68.58 43.18)
+			(xy 193.04 46.99) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e149b3cd-9f94-4d4e-9eb2-95723ef16a41")
+		(uuid "de6074eb-a617-4a49-8e13-4a15dbdfbd8e")
 	)
 	(wire
 		(pts
-			(xy 213.36 86.36) (xy 215.9 86.36)
+			(xy 109.22 83.82) (xy 106.68 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e55e6bd4-7498-46ff-9b00-e032cb5e2c3b")
+		(uuid "e087dcd0-bf6f-49d2-9ce3-a93a7938c806")
 	)
 	(wire
 		(pts
-			(xy 245.11 54.61) (xy 247.65 54.61)
+			(xy 251.46 85.09) (xy 248.92 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7031bc9-ab3a-4f9c-8283-0f01a94cd80b")
+		(uuid "e13a0a1d-1503-48b2-b306-010a11c9bb43")
 	)
 	(wire
 		(pts
-			(xy 67.31 80.01) (xy 69.85 80.01)
+			(xy 60.96 83.82) (xy 63.5 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8382d78-1a1d-4a8a-8134-0914bb49713c")
+		(uuid "e270367c-44ee-459e-9175-017488050ca0")
 	)
 	(wire
 		(pts
-			(xy 226.06 91.44) (xy 226.06 88.9)
+			(xy 71.12 86.36) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8430c85-3bc6-427e-8585-35b54519fb1a")
+		(uuid "e2ac82b8-106e-4f26-8dd1-eb795ac46935")
+	)
+	(wire
+		(pts
+			(xy 185.42 49.53) (xy 182.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60e4df5-6c0c-45ba-91ab-b2e4136795b9")
 	)
 	(wire
 		(pts
@@ -3243,6 +3351,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdf08f8-451f-4d5d-aa6f-54c6bcc4919a")
+	)
+	(wire
+		(pts
+			(xy 231.14 49.53) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed231d1d-ed3b-4e20-bbf0-e5755e94dcb1")
+	)
+	(wire
+		(pts
 			(xy 191.77 123.19) (xy 194.31 123.19)
 		)
 		(stroke
@@ -3253,6 +3381,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 82.55) (xy 251.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15cf14b-e458-449e-960e-53b8a4a27f19")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 182.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39f98e8-7dfa-4bd9-9c2c-c876e3f25276")
+	)
+	(wire
+		(pts
 			(xy 236.22 143.51) (xy 233.68 143.51)
 		)
 		(stroke
@@ -3260,6 +3408,26 @@
 			(type default)
 		)
 		(uuid "f5210b43-36ba-47ca-b71d-ec8ceca2ca1b")
+	)
+	(wire
+		(pts
+			(xy 231.14 46.99) (xy 228.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61229e8-e5a6-4c14-b100-2db49fa71b10")
+	)
+	(wire
+		(pts
+			(xy 251.46 44.45) (xy 251.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f626db53-6a6f-472e-a098-392eea35b6c8")
 	)
 	(wire
 		(pts
@@ -3283,13 +3451,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 113.03 85.09)
+			(xy 182.88 46.99) (xy 182.88 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd17c7e7-4308-4838-aa0f-e1d0cd748015")
+		(uuid "fd05721d-1687-4727-90cb-0c82293dacfa")
+	)
+	(wire
+		(pts
+			(xy 228.6 85.09) (xy 228.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd107ea8-00d6-4636-be84-bc8d5b59bb89")
 	)
 	(wire
 		(pts
@@ -3323,42 +3501,21 @@
 	)
 	(global_label "INJ-2-TRIG"
 		(shape input)
-		(at 115.57 85.09 0)
+		(at 58.42 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "0bdd35d4-bf62-42d0-9229-4c17c347f71c")
+		(uuid "14a77f18-918e-4bc4-bd21-945974b7b417")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 85.09 0)
+			(at 58.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INJ-4-TRIG"
-		(shape input)
-		(at 241.3 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "266d450b-554b-4104-9f53-e165f6ca0b5a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3424,23 +3581,65 @@
 			)
 		)
 	)
-	(global_label "INJ-4-OUT"
+	(global_label "INJ-3-OUT"
 		(shape input)
-		(at 213.36 86.36 180)
+		(at 231.14 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "754e1023-92b6-4db3-af3a-37783b41f717")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INJ-2-OUT"
+		(shape input)
+		(at 109.22 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7765b4a9-a5b9-4c65-9893-1081d989b29f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INJ-3-TRIG"
+		(shape input)
+		(at 180.34 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7c14e443-722a-4143-a9d1-9eb0a1278686")
+		(uuid "815b82c2-fc58-4d36-98fd-da5d80033657")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 86.36 0)
+			(at 180.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3466,64 +3665,63 @@
 			)
 		)
 	)
+	(global_label "INJ-4-TRIG"
+		(shape input)
+		(at 180.34 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9072e924-a4fa-4cfb-8182-4ede16bb53f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "INJ-1-OUT"
 		(shape input)
-		(at 86.36 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c32fb58b-292a-45e6-a6c6-809408c86789")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INJ-2-OUT"
-		(shape input)
-		(at 87.63 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cf8a205f-7d01-4ab9-a081-a7281de998ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INJ-3-TRIG"
-		(shape input)
-		(at 237.49 49.53 0)
+		(at 109.22 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d3981813-1d89-4d79-9ff2-0341d5ac5e29")
+		(uuid "c83560b6-5ce6-4f86-82ae-a347eed70b6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RAW-BAT"
+		(shape input)
+		(at 157.48 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd2384d1-ba1b-4f66-807c-a12df998a2b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3549,39 +3747,18 @@
 			)
 		)
 	)
-	(global_label "INJ-3-OUT"
+	(global_label "INJ-1-TRIG"
 		(shape input)
-		(at 209.55 49.53 180)
+		(at 58.42 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "de80dabc-04bf-408f-9ccb-368461b89136")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.55 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INJ-1-TRIG"
-		(shape input)
-		(at 114.3 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
 		(uuid "e2189cdb-627b-4dfa-9350-173bd1d0f95c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 48.26 0)
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,6 +3788,27 @@
 			)
 		)
 	)
+	(global_label "INJ-4-OUT"
+		(shape input)
+		(at 231.14 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6589e8c-7035-4474-8851-f627139a32ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IGN-4-OUT"
 		(shape input)
 		(at 246.38 143.51 0)
@@ -3633,7 +3831,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 53.34 90)
+		(at 67.31 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3641,7 +3839,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd30cf3")
 		(property "Reference" "R56"
-			(at 105.41 59.8678 90)
+			(at 67.31 40.4622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3847,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 105.41 57.5564 90)
+			(at 67.31 42.7736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3855,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 105.41 55.118 90)
+			(at 67.31 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 53.34 0)
+			(at 67.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 53.34 0)
+			(at 67.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3881,7 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 165.1 121.92 0)
+			(at 7.62 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +3890,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 165.1 121.92 0)
+			(at 7.62 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3899,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 165.1 121.92 0)
+			(at 7.62 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3908,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 165.1 121.92 0)
+			(at 7.62 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3933,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 43.18 270)
+		(at 129.54 40.64 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3743,7 +3942,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd3e6c1")
 		(property "Reference" "R55"
-			(at 62.23 37.9222 90)
+			(at 134.7978 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3950,7 @@
 			)
 		)
 		(property "Value" "2.4k"
-			(at 62.23 40.2336 90)
+			(at 132.4864 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3958,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 62.23 41.402 90)
+			(at 131.318 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3967,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 43.18 0)
+			(at 129.54 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3976,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 43.18 0)
+			(at 129.54 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3984,7 @@
 			)
 		)
 		(property "Digikey Part Number" "311-2.40KCRCT-ND"
-			(at 17.78 -43.18 0)
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3993,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 17.78 -43.18 0)
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +4002,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
-			(at 17.78 -43.18 0)
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +4011,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
-			(at 17.78 -43.18 0)
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +4036,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 72.39 43.18 180)
+		(at 123.19 46.99 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3845,7 +4045,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd3e6c7")
 		(property "Reference" "D8"
-			(at 72.5678 36.703 0)
+			(at 123.0122 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +4053,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 72.5678 39.0144 0)
+			(at 123.0122 42.8244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +4061,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 72.39 43.18 0)
+			(at 123.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +4070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 43.18 0)
+			(at 123.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +4079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 43.18 0)
+			(at 123.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,7 +4087,7 @@
 			)
 		)
 		(property "Digikey Part Number" "475-1415-1-ND"
-			(at 168.91 -1.27 0)
+			(at 26.67 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +4096,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Osram"
-			(at 168.91 -1.27 0)
+			(at 26.67 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +4105,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LH R974-LP-1"
-			(at 168.91 -1.27 0)
+			(at 26.67 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4114,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
-			(at 168.91 -1.27 0)
+			(at 26.67 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5279,8 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 43.18 180)
+		(at 113.03 46.99 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5087,7 +5288,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cfc227f")
 		(property "Reference" "D9"
-			(at 82.55 37.6936 0)
+			(at 113.03 41.5036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +5296,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 82.55 40.005 0)
+			(at 113.03 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5304,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 82.55 43.18 0)
+			(at 113.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 43.18 0)
+			(at 113.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5322,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 43.18 0)
+			(at 113.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5330,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1N4448WXTPMSCT-ND"
-			(at 190.5 -1.27 0)
+			(at 5.08 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5339,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "MCC"
-			(at 190.5 -1.27 0)
+			(at 5.08 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5348,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N4448WX-TP"
-			(at 190.5 -1.27 0)
+			(at 5.08 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +5357,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338"
-			(at 190.5 -1.27 0)
+			(at 5.08 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,140 +6094,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01eee5fd-e083-4c4c-a4bb-f137b0312a0e")
-		(property "Reference" "#PWR0187"
-			(at 254 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da5618c-48eb-4ed0-bfc2-85ee54f27979")
-		)
-		(instances
-			(project ""
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR0187")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02106341-2f8a-4f60-8a84-f9bb8f949cbd")
-		(property "Reference" "#PWR0185"
-			(at 132.08 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da5618c-48eb-4ed0-bfc2-85ee54f2797a")
-		)
-		(instances
-			(project ""
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR0185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 189.23 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6194,33 +6261,33 @@
 		)
 	)
 	(symbol
-		(lib_id "IC_Automotive:VNL5050N3TR")
-		(at 222.25 45.72 0)
+		(lib_id "Device:R")
+		(at 251.46 40.64 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17e7e540-82e0-4a59-b620-16ee58c9bb3e")
-		(property "Reference" "U14"
-			(at 222.25 38.1 0)
+		(uuid "09a8e698-037b-4ac0-b973-7e21f3921450")
+		(property "Reference" "R63"
+			(at 256.7178 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VNL5050"
-			(at 222.25 40.64 0)
+		(property "Value" "2.4k"
+			(at 254.4064 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "IC_Automotive:SOT-223-3_VNL5050"
-			(at 222.25 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 253.238 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,8 +6295,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 222.25 45.72 0)
+		(property "Datasheet" "~"
+			(at 251.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6305,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 45.72 0)
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-2.40KCRCT-ND"
+			(at 337.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,19 +6321,563 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "2473a6a8-590c-49a2-b8a4-9ee389ed17dc")
+		(property "Manufacturer_Name" "Yageo"
+			(at 337.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "856ae7d8-d998-4b92-b35a-34ab01e1aff9")
+		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
+			(at 337.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
+			(at 337.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ab71d109-72a6-415e-b64a-92e4a00671e4")
+			(uuid "9af4a5ae-886e-42d5-8755-8e5a860010e6")
+		)
+		(pin "2"
+			(uuid "cfec5f5c-8abe-434a-af06-82134ceaee7b")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "U14")
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 129.54 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a28a899-8fb8-4eed-9c5f-862e0dec5127")
+		(property "Reference" "#PWR023"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 129.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc70c7d9-030f-4e0a-8634-4e38e296e21e")
+		)
+		(instances
+			(project ""
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IC_Automotive:VNL5090N3-E")
+		(at 76.2 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cabc5b7-f788-460c-968f-957695c40eab")
+		(property "Reference" "IC7"
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNL5090N3-E"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT230P700X180-4N"
+			(at 107.95 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/en/automotive-analog-and-power/vnl5090n3-e.html"
+			(at 107.95 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DSE"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 107.95 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 107.95 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNL5090N3-E"
+			(at 107.95 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 107.95 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 107.95 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 107.95 941.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 107.95 1041.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6036625d-371c-4eda-89ba-9010b1c3bc1d")
+		)
+		(pin "3"
+			(uuid "2ff9151f-26ae-4ce3-b76a-31b5de128d20")
+		)
+		(pin "1"
+			(uuid "9bd01b64-e205-4c47-a24a-21e12dcb4327")
+		)
+		(pin "2"
+			(uuid "830d2d51-73b6-470c-bcd4-80c3ed6bfef9")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "IC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 234.95 85.09 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f8e3662-81aa-40ee-baf4-77f02dd87d57")
+		(property "Reference" "D14"
+			(at 234.95 79.6036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 234.95 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1N4448WXTPMSCT-ND"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4448WX-TP"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7153f41b-0cab-462b-a2c6-af455fd855cf")
+		)
+		(pin "2"
+			(uuid "85e8ecc4-a8d2-4997-8bd9-10d909308841")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13cb7682-c8aa-4b70-9f45-53922766edb8")
+		(property "Reference" "R61"
+			(at 189.23 40.4622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 189.23 42.7736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.23 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1.00KCRCT-ND"
+			(at 129.54 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 129.54 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+			(at 129.54 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
+			(at 129.54 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f46db80-eb57-4a2c-909d-98004eb2d8ab")
+		)
+		(pin "2"
+			(uuid "6d798883-0eef-4925-83aa-dcbdf7162140")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16b85e26-8c49-464a-a646-4ffe49c636d7")
+		(property "Reference" "R60"
+			(at 134.7978 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 132.4864 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 131.318 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-2.40KCRCT-ND"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2d91720-d053-4ae7-98a8-be6f19d176e7")
+		)
+		(pin "2"
+			(uuid "038426ca-6c3b-4473-b98d-403dd5bfc9a9")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -6369,32 +6988,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 80.01 270)
+		(lib_id "Device:D")
+		(at 234.95 46.99 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1d49f335-17bc-4f08-997f-8c01bb81bf1a")
-		(property "Reference" "R58"
-			(at 63.5 74.7522 90)
+		(uuid "1f485b1c-9fed-418c-9a81-24b5458e8c99")
+		(property "Reference" "D12"
+			(at 234.95 41.5036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 63.5 77.0636 90)
+		(property "Value" "D"
+			(at 234.95 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 63.5 78.232 90)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 234.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +7023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 80.01 0)
+			(at 234.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,15 +7032,120 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 80.01 0)
+			(at 234.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-2.40KCRCT-ND"
-			(at 19.05 -6.35 0)
+		(property "Digikey Part Number" "1N4448WXTPMSCT-ND"
+			(at 127 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 127 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4448WX-TP"
+			(at 127 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338"
+			(at 127 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec100cc7-e596-46df-961d-8ff05aedd50a")
+		)
+		(pin "2"
+			(uuid "d1925cdf-0773-4645-b7c5-97f69ddcbc85")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2024b96d-03a4-4617-b043-5382d8d4721e")
+		(property "Reference" "R65"
+			(at 190.5 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 191.77 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.23 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-100KCRCT-ND"
+			(at 116.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +7154,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 19.05 -6.35 0)
+			(at 116.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,8 +7162,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
-			(at 19.05 -6.35 0)
+		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+			(at 116.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,8 +7171,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
-			(at 19.05 -6.35 0)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
+			(at 116.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,118 +7181,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "e316c71b-78a4-4a59-9678-e8d5b8db070e")
+			(uuid "5938023a-e728-4cfd-88e9-253b20731b8d")
 		)
 		(pin "2"
-			(uuid "293c6467-a747-49e7-b52c-b248ec3be049")
+			(uuid "1211985a-6447-43cc-8937-0b1744aaade0")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R58")
+					(reference "R65")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "IC_Automotive:VNL5050N3TR")
-		(at 99.06 44.45 0)
+		(lib_id "Device:R")
+		(at 251.46 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24bb2b3b-f0b9-49b4-b0b4-d30d684591ac")
-		(property "Reference" "U12"
-			(at 99.06 36.83 0)
+		(uuid "217b4a3e-6f42-47a1-b68b-057edea1d4b2")
+		(property "Reference" "R66"
+			(at 256.7178 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VNL5050"
-			(at 99.06 39.37 0)
+		(property "Value" "2.4k"
+			(at 254.4064 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "IC_Automotive:SOT-223-3_VNL5050"
-			(at 99.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "99c8cebf-c223-47fc-9a35-aedc33ae910f")
-		)
-		(pin "2"
-			(uuid "2082155d-5b84-4cbb-8aec-800d79b7099b")
-		)
-		(pin "1"
-			(uuid "d634187b-b79b-412f-a41b-52c48666d5cf")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 199.39 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25d477f8-ee20-46d1-af1f-5bd8bf44ca04")
-		(property "Reference" "D14"
-			(at 199.5678 74.803 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 199.5678 77.1144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 199.39 81.28 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 253.238 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +7231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 81.28 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,24 +7240,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 81.28 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Digikey Part Number" "475-1415-1-ND"
-			(at 295.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Osram"
-			(at 295.91 36.83 0)
+		(property "Digikey Part Number" "311-2.40KCRCT-ND"
+			(at 337.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,8 +7256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LH R974-LP-1"
-			(at 295.91 36.83 0)
+		(property "Manufacturer_Name" "Yageo"
+			(at 337.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,8 +7265,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
-			(at 295.91 36.83 0)
+		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
+			(at 337.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,16 +7274,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "bdaa5bb4-6348-43aa-be29-2838070f1f30")
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
+			(at 337.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4b715ad2-11c1-40eb-b03c-fcae860372d9")
+			(uuid "9a6df268-0da2-46f4-934d-05668cdcfa62")
+		)
+		(pin "2"
+			(uuid "8a55cafe-df57-49fd-9698-997449d96fec")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "D14")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -6746,119 +7401,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 195.58 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28457878-093d-4772-9277-a316a29e5c83")
-		(property "Reference" "D12"
-			(at 195.7578 37.973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 195.7578 40.2844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 195.58 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "475-1415-1-ND"
-			(at 292.1 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Osram"
-			(at 292.1 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LH R974-LP-1"
-			(at 292.1 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
-			(at 292.1 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d8848db1-5870-470c-8c72-4f56c277d8ea")
-		)
-		(pin "1"
-			(uuid "92b486f6-88f3-4cd9-91f4-f4b45fa6f4ef")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.22 81.28 90)
+		(lib_id "power:+12V")
+		(at 251.46 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2a4b20e5-d259-4750-a934-4cd1ad553774")
-		(property "Reference" "#PWR0189"
-			(at 242.57 81.28 0)
+		(uuid "29cbb5fe-e1db-4548-8988-8124f7fa4f22")
+		(property "Reference" "#PWR037"
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,17 +7419,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 240.03 81.2799 90)
+		(property "Value" "+12V"
+			(at 251.46 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 81.28 0)
+			(at 251.46 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +7437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 81.28 0)
+			(at 251.46 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,8 +7445,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 251.46 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,12 +7455,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6da5618c-48eb-4ed0-bfc2-85ee54f2797b")
+			(uuid "a5a18a71-3953-4afa-ac1b-888fe88b31ef")
 		)
 		(instances
-			(project ""
+			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR0189")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7019,17 +7571,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 179.07 44.45 90)
+		(lib_id "IC_Automotive:VNL5090N3-E")
+		(at 198.12 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "33e781ec-fe5b-4898-ae86-32e3638bf574")
-		(property "Reference" "#PWR025"
-			(at 182.88 44.45 0)
+		(uuid "337ccab2-8b7c-4f37-aeee-f7f70c457fb7")
+		(property "Reference" "IC9"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNL5090N3-E"
+			(at 212.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT230P700X180-4N"
+			(at 229.87 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/en/automotive-analog-and-power/vnl5090n3-e.html"
+			(at 229.87 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DSE"
+			(at 198.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,17 +7625,124 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 175.26 44.4499 90)
+		(property "Height" "1.8"
+			(at 229.87 441.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 44.45 0)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 229.87 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNL5090N3-E"
+			(at 229.87 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 229.87 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 229.87 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 229.87 941.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 229.87 1041.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "11c8213f-e6ba-4ccf-9517-e1e186d12bca")
+		)
+		(pin "3"
+			(uuid "88117192-9fd8-4143-822e-b7fa4e8277f7")
+		)
+		(pin "1"
+			(uuid "010892e4-4597-42d2-b7e3-8bf6b80ce4ec")
+		)
+		(pin "2"
+			(uuid "157d7590-f357-4868-8f4f-d8dd062798d7")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "IC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a821218-356e-41dc-9586-f23f45544cb0")
+		(property "Reference" "R64"
+			(at 189.23 78.5622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 189.23 80.8736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.23 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,8 +7750,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 179.07 44.45 0)
+		(property "Datasheet" "~"
+			(at 189.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,8 +7759,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 179.07 44.45 0)
+		(property "Description" ""
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1.00KCRCT-ND"
+			(at 129.54 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 129.54 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+			(at 129.54 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
+			(at 129.54 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7804,76 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d6b36b1-5107-48d8-9be5-91d61c3ce6f9")
+			(uuid "d534f46e-3307-461a-a624-851ac17c41f1")
+		)
+		(pin "2"
+			(uuid "79e91aba-57e5-4b60-adc9-030184372415")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 129.54 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aee74ab-a882-40ad-af1c-75cde6ab31af")
+		(property "Reference" "#PWR025"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea0f54e8-d376-4f14-b805-be5f6e758ae8")
 		)
 		(instances
 			(project "speeday"
@@ -7086,32 +7885,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 54.61 90)
+		(lib_id "power:+12V")
+		(at 251.46 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3de57847-e2e4-489c-b25b-ccfdb3e0339b")
-		(property "Reference" "R62"
-			(at 228.6 61.1378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 228.6 58.8264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 228.6 56.388 90)
+		(fields_autoplaced yes)
+		(uuid "43bb61a3-31bf-4eba-aa69-1a972a7cb646")
+		(property "Reference" "#PWR039"
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,8 +7903,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 228.6 54.61 0)
+		(property "Value" "+12V"
+			(at 251.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,16 +7920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 228.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 288.29 123.19 0)
+		(property "Datasheet" ""
+			(at 251.46 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,26 +7929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 288.29 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 288.29 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 288.29 123.19 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 251.46 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,49 +7939,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "17e59b1f-de72-4db2-a4c5-9b43e8a9ab49")
-		)
-		(pin "2"
-			(uuid "c72ac4ab-f4de-4de0-8728-0c829ad097f2")
+			(uuid "4f7cb088-d7d8-461e-8a39-ff58f17f5832")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R62")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 241.3 54.61 90)
+		(lib_id "power:GND")
+		(at 73.66 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3f7e9b74-977f-4104-9965-aaf68842e69c")
-		(property "Reference" "R63"
-			(at 240.03 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 238.76 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 241.3 56.388 90)
+		(fields_autoplaced yes)
+		(uuid "454897b3-1d45-40db-aa30-33edfbf28b55")
+		(property "Reference" "#PWR036"
+			(at 73.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,8 +7969,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 241.3 54.61 0)
+		(property "Value" "GND"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,16 +7986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-100KCRCT-ND"
-			(at 313.69 116.84 0)
+		(property "Datasheet" ""
+			(at 73.66 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7249,26 +7995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 313.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
-			(at 313.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
-			(at 313.69 116.84 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,117 +8005,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8aa8cec4-ed25-4ff7-9c8e-2f093ff1917b")
-		)
-		(pin "2"
-			(uuid "9ac4e9ce-c173-44fc-b7af-25b65e8976ca")
+			(uuid "6bebc2a9-1a18-478c-b9db-3dd718db82c1")
 		)
 		(instances
-			(project "speeday"
+			(project ""
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 209.55 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4876e721-fa02-452c-9790-55c1210bfc60")
-		(property "Reference" "D15"
-			(at 209.55 75.7936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 209.55 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 209.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "1N4448WXTPMSCT-ND"
-			(at 317.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MCC"
-			(at 317.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N4448WX-TP"
-			(at 317.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338"
-			(at 317.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "338f709b-acfe-4dcc-9443-c24ebaea49e1")
-		)
-		(pin "2"
-			(uuid "836c3a9a-51bf-44b5-b887-f0c2e08b6001")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "D15")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7496,17 +8119,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 182.88 81.28 90)
+		(lib_id "Device:LED")
+		(at 245.11 46.99 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b6f96d4-909e-4aee-8318-9f04773fb26d")
-		(property "Reference" "#PWR026"
-			(at 186.69 81.28 0)
+		(uuid "4ac05cfb-63ea-4c8c-95fb-6fd48a6705c0")
+		(property "Reference" "D13"
+			(at 244.9322 40.513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 244.9322 42.8244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 245.11 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,17 +8153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 179.07 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 81.28 0)
+		(property "Datasheet" "~"
+			(at 245.11 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,8 +8162,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 81.28 0)
+		(property "Description" ""
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "475-1415-1-ND"
+			(at 148.59 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,22 +8179,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 182.88 81.28 0)
+		(property "Manufacturer_Name" "Osram"
+			(at 148.59 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Part_Number" "LH R974-LP-1"
+			(at 148.59 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
+			(at 148.59 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f5d99cd-177f-4b4f-9b3a-b33915288921")
 		)
 		(pin "1"
-			(uuid "ffd60e52-67de-4ced-ab4d-4f8f13ff8281")
+			(uuid "fd66a9e6-6435-445c-9cc7-d7830155bfd3")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR026")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7667,6 +8326,257 @@
 		)
 	)
 	(symbol
+		(lib_id "IC_Automotive:VNL5090N3-E")
+		(at 76.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57650f9c-0a73-47dd-b8d7-e02db8a170f5")
+		(property "Reference" "IC8"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNL5090N3-E"
+			(at 90.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT230P700X180-4N"
+			(at 107.95 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/en/automotive-analog-and-power/vnl5090n3-e.html"
+			(at 107.95 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DSE"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 107.95 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 107.95 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNL5090N3-E"
+			(at 107.95 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 107.95 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 107.95 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 107.95 978.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 107.95 1078.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e38d56c2-e625-455c-897b-1d06f7a80d23")
+		)
+		(pin "3"
+			(uuid "3cd8fcfc-3aff-4612-bb1c-4b4efac56d28")
+		)
+		(pin "1"
+			(uuid "5aafd09d-2e1c-4a73-b453-730102016a22")
+		)
+		(pin "2"
+			(uuid "a2103678-9b5b-4c5e-a538-83a068a3df56")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "IC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5edc8c9e-bdd4-4921-ae30-c6c15cd7241b")
+		(property "Reference" "R59"
+			(at 68.58 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 69.85 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 67.31 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-100KCRCT-ND"
+			(at -5.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at -5.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+			(at -5.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
+			(at -5.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51d6f5e1-6856-4982-a76d-20c4f24a5733")
+		)
+		(pin "2"
+			(uuid "125e6efe-43e7-45f6-a166-ffb16e0200fc")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 198.12 123.19 270)
 		(unit 1)
@@ -7769,16 +8679,162 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 232.41 91.44 90)
+		(lib_id "IC_Automotive:VNL5090N3-E")
+		(at 198.12 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6d269743-f379-44a0-b9b2-c7fc44a4ede7")
-		(property "Reference" "R65"
-			(at 232.41 97.9678 90)
+		(fields_autoplaced yes)
+		(uuid "74396e93-23a0-45aa-877c-d42245f0291b")
+		(property "Reference" "IC10"
+			(at 212.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNL5090N3-E"
+			(at 212.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT230P700X180-4N"
+			(at 229.87 180.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/en/automotive-analog-and-power/vnl5090n3-e.html"
+			(at 229.87 280.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DSE"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 229.87 480.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 229.87 580.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNL5090N3-E"
+			(at 229.87 680.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 229.87 780.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 229.87 880.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 229.87 980.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 229.87 1080.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2ed6251f-78a6-41a4-a713-a9d3248d8e45")
+		)
+		(pin "3"
+			(uuid "6e0c44e6-213a-4a44-b64c-dcaec46c1473")
+		)
+		(pin "1"
+			(uuid "163ba401-3eb0-4a71-835a-c645669fae45")
+		)
+		(pin "2"
+			(uuid "befeb41a-057f-4afb-8dbd-cd71f026f3b2")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "IC10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a8b7a93-b18c-4892-8050-b4f36df2faf5")
+		(property "Reference" "R58"
+			(at 67.31 77.2922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +8842,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 232.41 95.6564 90)
+			(at 67.31 79.6036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,7 +8850,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 232.41 93.218 90)
+			(at 67.31 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +8859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 91.44 0)
+			(at 67.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +8868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 91.44 0)
+			(at 67.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +8876,7 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 292.1 160.02 0)
+			(at 7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +8885,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 292.1 160.02 0)
+			(at 7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +8894,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 292.1 160.02 0)
+			(at 7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +8903,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 292.1 160.02 0)
+			(at 7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,491 +8912,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e17ef578-1013-49ac-a5dc-731972d9a8be")
+			(uuid "551031ce-43d6-4330-80b3-a1d127d1f8b9")
 		)
 		(pin "2"
-			(uuid "87bfeb7a-d3ee-4efe-a349-2246582babd0")
+			(uuid "4f7d23be-1930-475c-91b1-05a968a2ebbf")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 205.74 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75bf44b2-b0ad-4e0c-a350-ff58cef6b5a9")
-		(property "Reference" "D13"
-			(at 205.74 38.9636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 205.74 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "1N4448WXTPMSCT-ND"
-			(at 313.69 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MCC"
-			(at 313.69 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N4448WX-TP"
-			(at 313.69 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338"
-			(at 313.69 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5f0f45d-5609-42fe-949c-978093aaf99d")
-		)
-		(pin "2"
-			(uuid "62e37538-fa7e-4c3e-817a-1a97861d36a2")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 185.42 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77d80b9c-7318-401e-bd97-84d8ac5e1202")
-		(property "Reference" "R61"
-			(at 185.42 39.1922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.4k"
-			(at 185.42 41.5036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 185.42 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-2.40KCRCT-ND"
-			(at 140.97 -41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 140.97 -41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
-			(at 140.97 -41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
-			(at 140.97 -41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b30ae008-bca7-493c-966f-7d9cb2873fe6")
-		)
-		(pin "2"
-			(uuid "20aaef92-f42f-4549-9e74-defa8b6f6fff")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IC_Automotive:VNL5050N3TR")
-		(at 226.06 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79d2ea8b-7c19-41c7-b327-e8e7bec1903c")
-		(property "Reference" "U15"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNL5050"
-			(at 226.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "IC_Automotive:SOT-223-3_VNL5050"
-			(at 226.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b0d4079f-298c-4c3c-8d61-6f3475195747")
-		)
-		(pin "2"
-			(uuid "653bfd3a-acc6-473f-87dc-b23b3dc6eab4")
-		)
-		(pin "1"
-			(uuid "ceedb413-658a-4e5e-971e-7a179e91241b")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bc496d9-1a61-4479-8d53-c2d60619a551")
-		(property "Reference" "#PWR0188"
-			(at 238.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da5618c-48eb-4ed0-bfc2-85ee54f2797c")
-		)
-		(instances
-			(project ""
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR0188")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7df1ae7c-fb6a-42d7-9f7e-03e0d00dec61")
-		(property "Reference" "#PWR0176"
-			(at 130.81 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da5618c-48eb-4ed0-bfc2-85ee54f2797d")
-		)
-		(instances
-			(project ""
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 157.48 173.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88f0d4cc-7dc5-4ffa-a0f8-6bf5e4421381")
-		(property "Reference" "#PWR027"
-			(at 153.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 161.29 173.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 157.48 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26ce7fe2-aa40-4180-828b-523f6d8a2ce8")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR027")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -8413,108 +8993,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 73.66 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ff00e27-3038-4a9f-985d-bf76436c43e9")
-		(property "Reference" "D10"
-			(at 73.8378 73.533 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 73.8378 75.8444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "475-1415-1-ND"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Osram"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LH R974-LP-1"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28c824fa-275a-472a-b1cd-5f39c100101c")
-		)
-		(pin "1"
-			(uuid "aea4e5fb-68d8-47ac-b4ea-ca139d51d129")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 256.54 128.27 90)
 		(unit 1)
@@ -8580,119 +9058,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 189.23 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9520a667-18f0-436e-9b34-a1da339c50a6")
-		(property "Reference" "R64"
-			(at 189.23 76.0222 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.4k"
-			(at 189.23 78.3336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 189.23 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-2.40KCRCT-ND"
-			(at 144.78 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 144.78 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
-			(at 144.78 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
-			(at 144.78 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a70182ab-dc6b-4590-a635-ffe91ce9aa97")
-		)
-		(pin "2"
-			(uuid "f0fa6129-1f6d-406d-a91d-7a20318c2420")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 109.22 43.18 90)
+		(at 73.66 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97b6d10d-2c76-449a-a2d1-bc944f66b163")
-		(property "Reference" "#PWR0177"
-			(at 115.57 43.18 0)
+		(uuid "9f9a4805-c3bf-40b5-ac7d-45b4607ba0c7")
+		(property "Reference" "#PWR024"
+			(at 73.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,16 +9077,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 43.1799 90)
+			(at 73.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 43.18 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +9094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 43.18 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +9103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 43.18 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8737,181 +9112,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c9f5850-2dd6-43f9-9239-d78c6f4af4e2")
-		)
-		(instances
-			(project ""
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR0177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e0c189c-8630-4fc6-a9cf-9fbdf83e42fb")
-		(property "Reference" "#PWR0186"
-			(at 116.84 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da5618c-48eb-4ed0-bfc2-85ee54f2797e")
-		)
-		(instances
-			(project ""
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR0186")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 83.82 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fb53b4b-17e3-4585-a70a-dbdbabd57a95")
-		(property "Reference" "D11"
-			(at 83.82 74.5236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 83.82 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 83.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "1N4448WXTPMSCT-ND"
-			(at 191.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MCC"
-			(at 191.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N4448WX-TP"
-			(at 191.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338"
-			(at 191.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1acafb9a-e099-4230-be18-9ba85ecfa3b3")
-		)
-		(pin "2"
-			(uuid "e899c22c-b522-4fea-896e-265e4949c71d")
+			(uuid "f216cd6d-972b-43db-beb4-28c948718621")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "D11")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9021,17 +9227,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 55.88 43.18 90)
+		(lib_id "power:GND")
+		(at 195.58 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7a2a1e5-2f5d-42f7-b560-126013246ad6")
-		(property "Reference" "#PWR023"
-			(at 59.69 43.18 0)
+		(uuid "a43f797d-0d9d-4ccc-bf2a-b7e8dfcfc3ea")
+		(property "Reference" "#PWR038"
+			(at 195.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,17 +9245,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 52.07 43.1799 90)
+		(property "Value" "GND"
+			(at 195.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 43.18 0)
+			(at 195.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +9263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 43.18 0)
+			(at 195.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,8 +9271,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 55.88 43.18 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,83 +9281,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9831afcb-c3ed-4597-a24b-db458f8b16db")
+			(uuid "70231fe0-7423-41ae-a845-bb5859374516")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IC_Automotive:VNL5050N3TR")
-		(at 100.33 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abb2e597-f0c8-40e1-a946-ef61dfb036d1")
-		(property "Reference" "U13"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNL5050"
-			(at 100.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "IC_Automotive:SOT-223-3_VNL5050"
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3052f778-ec77-4ed6-ab19-5774c5d4a4df")
-		)
-		(pin "2"
-			(uuid "26a453fe-50ef-4f2a-9645-a3213a5c15ba")
-		)
-		(pin "1"
-			(uuid "d04ab300-c31b-49d0-b63b-11b64efa64e5")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "U13")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9160,7 +9294,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 53.34 90)
+		(at 67.31 49.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9168,7 +9303,7 @@
 		(dnp no)
 		(uuid "ae6137ca-561e-4dc6-82cd-093c71852994")
 		(property "Reference" "R57"
-			(at 116.84 57.912 90)
+			(at 68.58 54.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9312,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 115.57 55.88 90)
+			(at 69.85 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +9321,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 118.11 55.118 90)
+			(at 67.31 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,7 +9330,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 53.34 0)
+			(at 67.31 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 53.34 0)
+			(at 67.31 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +9347,7 @@
 			)
 		)
 		(property "Digikey Part Number" "311-100KCRCT-ND"
-			(at 190.5 115.57 0)
+			(at -5.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,7 +9356,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 190.5 115.57 0)
+			(at -5.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +9365,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
-			(at 190.5 115.57 0)
+			(at -5.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9374,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
-			(at 190.5 115.57 0)
+			(at -5.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,73 +9826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 251.46 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6e67b04-4cfc-48b7-9579-e22b3bd1c78b")
-		(property "Reference" "#PWR0190"
-			(at 257.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da5618c-48eb-4ed0-bfc2-85ee54f2797f")
-		)
-		(instances
-			(project ""
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR0190")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Vdrive")
 		(at 256.54 135.89 270)
 		(unit 1)
@@ -9823,99 +9891,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 57.15 80.01 90)
+		(lib_id "Device:D")
+		(at 113.03 83.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d718bc00-aee6-49d3-aca7-17dff505779f")
-		(property "Reference" "#PWR024"
-			(at 60.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 53.34 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f8d9f88-7aef-464c-8855-15122d32d773")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d800b007-5017-4e32-8e26-efc414f8b54f")
-		(property "Reference" "R59"
-			(at 106.68 96.6978 90)
+		(uuid "da14d999-c587-48e2-8f87-6fb7d002e872")
+		(property "Reference" "D10"
+			(at 113.03 78.3336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 106.68 94.3864 90)
+		(property "Value" "D"
+			(at 113.03 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 106.68 91.948 90)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 90.17 0)
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,24 +9935,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 90.17 0)
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 166.37 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 166.37 158.75 0)
+		(property "Digikey Part Number" "1N4448WXTPMSCT-ND"
+			(at 5.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,8 +9951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 166.37 158.75 0)
+		(property "Manufacturer_Name" "MCC"
+			(at 5.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,8 +9960,17 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 166.37 158.75 0)
+		(property "Manufacturer_Part_Number" "1N4448WX-TP"
+			(at 5.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338"
+			(at 5.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9977,15 +9979,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e25f663d-1b5f-4079-8ef4-2f05bb5d4f3b")
+			(uuid "fbebc61f-557e-49a4-ac5c-9448680d9c96")
 		)
 		(pin "2"
-			(uuid "487f3658-976d-40bd-bfa8-2475f21a9628")
+			(uuid "2574f898-16d6-4ff8-b361-1905eb41a26e")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R59")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -10096,110 +10098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 119.38 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9baa465-90b2-42d6-8f8d-17c8723a8809")
-		(property "Reference" "R60"
-			(at 118.11 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 116.84 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 119.38 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-100KCRCT-ND"
-			(at 191.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 191.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
-			(at 191.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
-			(at 191.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "167716dd-7164-4a78-ab22-083d1d625dc3")
-		)
-		(pin "2"
-			(uuid "3cd89731-af36-4ac8-969c-48c9f752833d")
-		)
-		(instances
-			(project "speeday"
-				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 256.54 116.84 90)
 		(mirror x)
@@ -10266,34 +10164,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 245.11 91.44 90)
+		(lib_id "Device:LED")
+		(at 245.11 85.09 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f8eba1e4-c241-4b6f-9eea-f4281729e510")
-		(property "Reference" "R66"
-			(at 243.84 96.012 90)
+		(uuid "f04d7827-e739-49c1-93e7-b8760054680c")
+		(property "Reference" "D15"
+			(at 244.9322 78.613 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 242.57 93.98 90)
+		(property "Value" "LED"
+			(at 244.9322 80.9244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 245.11 93.218 90)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 245.11 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 91.44 0)
+			(at 245.11 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10311,24 +10208,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 91.44 0)
+			(at 245.11 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-100KCRCT-ND"
-			(at 317.5 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 317.5 153.67 0)
+		(property "Digikey Part Number" "475-1415-1-ND"
+			(at 148.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,8 +10224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
-			(at 317.5 153.67 0)
+		(property "Manufacturer_Name" "Osram"
+			(at 148.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,8 +10233,86 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
-			(at 317.5 153.67 0)
+		(property "Manufacturer_Part_Number" "LH R974-LP-1"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2355af8-d9f6-4cd2-a980-6b788c3432c5")
+		)
+		(pin "1"
+			(uuid "d5595b9d-0a63-4d0e-b50e-03d1c18f9d42")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd35324c-9de9-4836-a36d-a66b3da221e1")
+		(property "Reference" "#PWR026"
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,15 +10321,220 @@
 			)
 		)
 		(pin "1"
-			(uuid "f84765f3-a86e-4a6d-a92f-c91a90873dcd")
-		)
-		(pin "2"
-			(uuid "7a7e7e20-cf43-4430-b6d0-62e0cbf511d4")
+			(uuid "ddc793f7-fd28-4acd-8f3d-f08a916a080e")
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
-					(reference "R66")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdeba1c3-4e35-4210-8809-e08bb2fc8712")
+		(property "Reference" "R62"
+			(at 190.5 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 191.77 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.23 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-100KCRCT-ND"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3551f2f5-cd08-4702-a290-1ca85755ba14")
+		)
+		(pin "2"
+			(uuid "85cc7d7b-bcfd-4cae-a147-4d8395ca4222")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 123.19 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fec8945b-0163-444e-bca1-adecbf26cb41")
+		(property "Reference" "D11"
+			(at 123.0122 77.343 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 123.0122 79.6544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "475-1415-1-ND"
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Osram"
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LH R974-LP-1"
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06f685f5-4009-4b95-bdff-b916af6c058b")
+		)
+		(pin "1"
+			(uuid "df11ab29-30a7-4786-8fa6-af497472aae6")
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb/00000000-0000-0000-0000-00005cd18c17"
+					(reference "D11")
 					(unit 1)
 				)
 			)
