@@ -2738,7 +2738,7 @@
 	)
 	(text "ADC1-IN13"
 		(exclude_from_sim no)
-		(at 146.558 128.524 0)
+		(at 146.558 121.158 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2748,7 +2748,7 @@
 	)
 	(text "ADC1-IN10"
 		(exclude_from_sim no)
-		(at 146.558 120.904 0)
+		(at 146.558 128.524 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2796,7 +2796,7 @@
 		)
 		(uuid "87b37bd1-66ea-47c6-bc62-04c9d966c52b")
 	)
-	(text "STM32F507 Microcontroller"
+	(text "STM32F407 Microcontroller"
 		(exclude_from_sim no)
 		(at 84.328 16.256 0)
 		(effects
@@ -2858,7 +2858,7 @@
 	)
 	(text "ADC1-IN12"
 		(exclude_from_sim no)
-		(at 146.558 125.984 0)
+		(at 146.558 123.444 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2868,7 +2868,7 @@
 	)
 	(text "ADC1-IN11"
 		(exclude_from_sim no)
-		(at 146.558 123.444 0)
+		(at 146.558 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4106,7 +4106,7 @@
 	)
 	(global_label "MCU-FAN-TRIG-D"
 		(shape input)
-		(at 113.03 54.61 0)
+		(at 113.03 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4115,32 +4115,12 @@
 		)
 		(uuid "04230a83-51c6-47ea-a13a-1ec067433651")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 54.61 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU-IAT-IN-A"
-		(shape input)
-		(at 113.03 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0574b499-4f20-410e-9be7-b5fbe315d58e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4232,7 +4212,7 @@
 	)
 	(global_label "MCU-TPS-IN-A"
 		(shape input)
-		(at 113.03 39.37 0)
+		(at 113.03 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4241,27 +4221,7 @@
 		)
 		(uuid "150e6095-b000-4299-9330-3aa6fcbf1b8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU-BAT-REF-IN-A"
-		(shape input)
-		(at 113.03 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "166c1aa7-7510-4311-ae20-072a7e76694b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 80.01 0)
+			(at 113.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4294,7 @@
 	)
 	(global_label "MCU-CLT-IN-A"
 		(shape input)
-		(at 113.03 49.53 0)
+		(at 113.03 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4343,7 +4303,7 @@
 		)
 		(uuid "240de915-8fd5-4d81-9ec7-adeb6285f6f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 49.53 0)
+			(at 113.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,18 +4378,18 @@
 			)
 		)
 	)
-	(global_label "MCU-O2-IN-A"
+	(global_label "MCU-CLUTCH-IN-A?"
 		(shape input)
-		(at 113.03 44.45 0)
+		(at 113.03 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "39cc5d04-8072-4841-b94e-e78c0a23a9c1")
+		(uuid "2e2aed99-4260-4e0b-9279-e9f67791e021")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 44.45 0)
+			(at 113.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,18 +4398,18 @@
 			)
 		)
 	)
-	(global_label "MCU-EXTRA-GPIO-12-A"
+	(global_label "MCU-O2-IN-A"
 		(shape input)
-		(at 113.03 128.27 0)
+		(at 113.03 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3d8bb0b7-f032-45d4-b5e3-a3de2ef3471e")
+		(uuid "39cc5d04-8072-4841-b94e-e78c0a23a9c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 128.27 0)
+			(at 113.03 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,9 +4460,29 @@
 			)
 		)
 	)
+	(global_label "MCU-EXTRA-GPIO-12-A"
+		(shape input)
+		(at 113.03 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "420e0614-e57f-4036-9b9f-ff2e9da15c14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-TACHO-TRIG-D"
 		(shape input)
-		(at 113.03 59.69 0)
+		(at 113.03 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4511,7 +4491,7 @@
 		)
 		(uuid "4cb680d0-fae8-4beb-a471-90833a784d3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 59.69 0)
+			(at 113.03 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,6 +4586,26 @@
 			)
 		)
 	)
+	(global_label "MCU-EXTRA-GPIO-9-A"
+		(shape input)
+		(at 113.03 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b278fb5-46cc-43e4-8aff-bae1afbb6fc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-INJ-3-TRIG-D"
 		(shape input)
 		(at 57.15 133.35 180)
@@ -4618,26 +4618,6 @@
 		(uuid "6caf1fcb-8e7e-457a-9ab1-ada1699c83db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.15 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU-EXTRA-GPIO-9-A"
-		(shape input)
-		(at 113.03 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e4e0205-55e2-4c27-88cb-03ae1848d55b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4670,7 @@
 	)
 	(global_label "MCU-CRANK-IN-A"
 		(shape input)
-		(at 113.03 52.07 0)
+		(at 113.03 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4699,7 +4679,7 @@
 		)
 		(uuid "8b1da076-b474-4bcc-ae69-fe4e76140d5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 52.07 0)
+			(at 113.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4940,7 @@
 	)
 	(global_label "MCU-FLEX-IN-A"
 		(shape input)
-		(at 113.03 46.99 0)
+		(at 113.03 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4969,7 +4949,7 @@
 		)
 		(uuid "ab212c0f-c817-4249-ac58-db1784c3c705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 46.99 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,18 +5023,38 @@
 			)
 		)
 	)
-	(global_label "MCU-CLUTCH-IN-A?"
+	(global_label "MCU-IAT-IN-A"
 		(shape input)
-		(at 113.03 36.83 0)
+		(at 113.03 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "bc9d9fca-3550-459b-aaf0-2020e7d25aef")
+		(uuid "b8a078be-0ca1-4eeb-823a-8cc3f3e4f9e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 36.83 0)
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EXTRA-GPIO-10-A"
+		(shape input)
+		(at 113.03 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9b3e1e1-01b0-4a1b-8eda-993f6dd52b23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,26 +5107,6 @@
 			)
 		)
 	)
-	(global_label "MCU-EXTRA-GPIO-11-A"
-		(shape input)
-		(at 113.03 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c26bcf35-d07f-4aeb-be69-1c63ed6cc20d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU-STEPPER-STEP-D"
 		(shape input)
 		(at 57.15 92.71 180)
@@ -5139,26 +5119,6 @@
 		(uuid "c2b349b3-3af9-4389-ac25-b5774814f545")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.15 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU-EXTRA-GPIO-10-A"
-		(shape input)
-		(at 113.03 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf18cb39-0fd3-49bc-a568-532be31c4f15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,6 +5345,46 @@
 			)
 		)
 	)
+	(global_label "MCU-EXTRA-GPIO-11-A"
+		(shape input)
+		(at 113.03 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e883d095-92d0-4099-8845-eb26419a18fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-BAT-REF-IN-A"
+		(shape input)
+		(at 113.03 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb267cb4-def5-4712-8896-f765c0946bdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-STEPPER-EN-D"
 		(shape input)
 		(at 57.15 95.25 180)
@@ -5407,7 +5407,7 @@
 	)
 	(global_label "MCU-CAM-IN-A"
 		(shape input)
-		(at 113.03 130.81 0)
+		(at 113.03 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,7 +5416,7 @@
 		)
 		(uuid "fb2dc869-e9fa-4805-a019-88a0b2378883")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 130.81 0)
+			(at 113.03 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6148,7 @@
 		)
 	)
 	(sheet
-		(at 19.05 177.8)
+		(at 215.9 25.4)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6164,7 +6164,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cd18c17")
 		(property "Sheetname" "Fuel & Ignition"
-			(at 19.05 177.0884 0)
+			(at 215.9 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,24 +6173,25 @@
 			)
 		)
 		(property "Sheetfile" "fuel_ignition.kicad_sch"
-			(at 19.05 191.0846 0)
+			(at 215.9 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 44.45 177.8)
+		(at 177.8 76.2)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6206,7 +6207,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cd18d89")
 		(property "Sheetname" "Inputs"
-			(at 44.45 177.0884 0)
+			(at 177.8 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,24 +6216,25 @@
 			)
 		)
 		(property "Sheetfile" "inputs.kicad_sch"
-			(at 44.45 191.0846 0)
+			(at 177.8 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 69.85 177.8)
+		(at 215.9 50.8)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6248,7 +6250,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cd18ec3")
 		(property "Sheetname" "Power"
-			(at 69.85 177.0884 0)
+			(at 215.9 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,24 +6259,25 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 69.85 191.0846 0)
+			(at 215.9 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 95.25 177.8)
+		(at 215.9 76.2)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6289,8 +6292,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-00005cd19033")
-		(property "Sheetname" "Connector"
-			(at 95.25 177.0884 0)
+		(property "Sheetname" "Connectors"
+			(at 215.9 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,25 +6301,26 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connector.kicad_sch"
-			(at 95.25 191.0846 0)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 215.9 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 120.65 177.8)
+		(at 177.8 101.6)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6332,7 +6336,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cd191f5")
 		(property "Sheetname" "Outputs"
-			(at 120.65 177.0884 0)
+			(at 177.8 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,24 +6345,25 @@
 			)
 		)
 		(property "Sheetfile" "outputs.kicad_sch"
-			(at 120.65 191.0846 0)
+			(at 177.8 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 146.05 177.8)
+		(at 177.8 25.4)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6373,8 +6378,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4a7b2b78-b13c-46df-a165-32753696e2ad")
-		(property "Sheetname" "STM32 Conversion"
-			(at 146.05 177.0884 0)
+		(property "Sheetname" "STM32 Conversion (Analog)"
+			(at 177.8 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,19 +6387,63 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "stm32_conversion.kicad_sch"
-			(at 146.05 191.0846 0)
+		(property "Sheetfile" "stm32_conversion_analog_digital.kicad_sch"
+			(at 177.8 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 50.8)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66b8743d-1820-4983-b599-807f3def23ab")
+		(property "Sheetname" "STM32 Conversion (Digital/Misc)"
+			(at 177.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32_conversion_misc.kicad_sch"
+			(at 177.8 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "speeday"
+				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
+					(page "3")
 				)
 			)
 		)

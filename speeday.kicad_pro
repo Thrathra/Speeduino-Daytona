@@ -1380,7 +1380,11 @@
     ],
     [
       "4a7b2b78-b13c-46df-a165-32753696e2ad",
-      "STM32 Conversion"
+      "STM32 Conversion (Analog)"
+    ],
+    [
+      "66b8743d-1820-4983-b599-807f3def23ab",
+      "STM32 Conversion (Digital/Misc)"
     ],
     [
       "00000000-0000-0000-0000-00005cd18d89",
@@ -1400,7 +1404,7 @@
     ],
     [
       "00000000-0000-0000-0000-00005cd19033",
-      "Connector"
+      "Connectors"
     ]
   ],
   "text_variables": {}
