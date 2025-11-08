@@ -5457,7 +5457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0efff0e6-c622-4600-9bdb-dbe1955427c8")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR04"
 			(at 85.09 180.34 0)
 			(effects
 				(font
@@ -5508,7 +5508,7 @@
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(reference "#PWR035")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5524,7 +5524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac2cfdf-5472-467b-92ec-fb70a81c5eb4")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR01"
 			(at 58.42 143.51 0)
 			(effects
 				(font
@@ -5575,7 +5575,7 @@
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(reference "#PWR027")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5591,7 +5591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f86e182-8ca6-4429-9779-243516748fe4")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 89.7733 166.37 0)
 			(effects
 				(font
@@ -5940,7 +5940,7 @@
 		(instances
 			(project ""
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(reference "U7")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5956,7 +5956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c00c976c-dd55-482a-b15b-36a44008ec58")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR05"
 			(at 93.98 21.59 0)
 			(effects
 				(font
@@ -6007,7 +6007,7 @@
 		(instances
 			(project ""
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(reference "#PWR044")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6023,7 +6023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca364d72-3693-4888-ab91-95a077be0511")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR02"
 			(at 60.96 44.45 0)
 			(effects
 				(font
@@ -6074,7 +6074,7 @@
 		(instances
 			(project ""
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(reference "#PWR043")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6090,7 +6090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e099bcb6-daf3-42ab-b41e-66fc5f60bc3c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR03"
 			(at 78.74 21.59 0)
 			(effects
 				(font
@@ -6141,7 +6141,7 @@
 		(instances
 			(project "speeday"
 				(path "/5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
-					(reference "#PWR032")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

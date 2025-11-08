@@ -59,7 +59,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|48514000|110998000|0ce3a6f2-461d-488f-8d38-567473956947|00000000-0000-0000-0000-000000000000",
+          "Fix holes without copper"
+        ],
+        [
+          "lib_footprint_mismatch|51308000|23368000|46570d21-1c72-431e-9907-7b47aebdc765|00000000-0000-0000-0000-000000000000",
+          "Removed Holes"
+        ],
+        [
+          "lib_footprint_mismatch|66294000|31242000|ee1092b2-a88e-44d3-a99b-6bd35517578f|00000000-0000-0000-0000-000000000000",
+          "Moved to prevent Net mixing"
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
