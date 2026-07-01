@@ -1451,7 +1451,7 @@
         "uuid": "5a477c6c-8a44-40c8-a075-f8fcd765b0eb"
       }
     ],
-    "used_designators": "J26,C52-53,Y3,#PWR122,#PWR128,R125-127",
+    "used_designators": "IC1,IC13-15,R3-4,R125-127,#PWR7-8,#PWR15-17,#PWR44-45,#PWR122,#PWR128,#PWR131-133,Y3,C8,C52-55,J26",
     "variants": []
   },
   "sheets": [
